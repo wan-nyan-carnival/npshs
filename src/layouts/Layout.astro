@@ -1,23 +1,31 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+---
+import Topbox from '../components/Topbox.astro';
+---
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Newポケモンスナップ ハイスコア攻略</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/destyle.css" />
+  <link rel="stylesheet" href="/css/jquery-ui.min.css" />
+  <link rel="stylesheet" href="/css/nps.css" />
+
+  <!-- JS -->
+  <script src="/js/loader.js" defer></script>
+</head>
+<body>
+
+  <!-- 共通ヘッダー -->
+  <Topbox />
+
+  <!-- ページごとの中身 -->
+  <main>
+    <slot />
+  </main>
+
+</body>
+</html>

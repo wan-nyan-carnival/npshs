@@ -10,7 +10,7 @@ const BASE = import.meta.env.BASE_URL;
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Newポケモンスナップ ハイスコア攻略</title>
 
-  <!-- CSS（ここで全部まとめる） -->
+  <!-- CSS -->
   <link rel="stylesheet" href={`${BASE}css/destyle.css`} />
   <link rel="stylesheet" href={`${BASE}css/jquery-ui.min.css`} />
   <link rel="stylesheet" href={`${BASE}css/nps.css`} />
@@ -18,15 +18,14 @@ const BASE = import.meta.env.BASE_URL;
   <!-- JS -->
   <script src={`${BASE}js/loader.js`} defer></script>
 </head>
-
 <body>
 
-  <!-- ヘッダー -->
-  <Topbox />
+  <!-- 共通ヘッダー -->
+  <Topbox base={BASE} />
 
-  <!-- 各ページの中身 -->
+  <!-- ページごとの中身。ここで base を slot で渡す -->
   <main>
-    <slot />
+    <slot base={BASE} />
   </main>
 
 </body>

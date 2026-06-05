@@ -1,5 +1,6 @@
 ---
 import Topbox from '../components/Topbox.astro';
+const BASE = import.meta.env.BASE_URL;
 ---
 
 <!DOCTYPE html>
@@ -9,20 +10,21 @@ import Topbox from '../components/Topbox.astro';
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Newポケモンスナップ ハイスコア攻略</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/destyle.css" />
-  <link rel="stylesheet" href="/css/jquery-ui.min.css" />
-  <link rel="stylesheet" href="/css/nps.css" />
+  <!-- CSS（ここで全部まとめる） -->
+  <link rel="stylesheet" href={`${BASE}css/destyle.css`} />
+  <link rel="stylesheet" href={`${BASE}css/jquery-ui.min.css`} />
+  <link rel="stylesheet" href={`${BASE}css/nps.css`} />
 
   <!-- JS -->
-  <script src="/js/loader.js" defer></script>
+  <script src={`${BASE}js/loader.js`} defer></script>
 </head>
+
 <body>
 
-  <!-- 共通ヘッダー -->
+  <!-- ヘッダー -->
   <Topbox />
 
-  <!-- ページごとの中身 -->
+  <!-- 各ページの中身 -->
   <main>
     <slot />
   </main>

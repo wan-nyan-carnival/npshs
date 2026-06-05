@@ -1,3 +1,15 @@
+/* =========================
+   ヘッダー読み込み
+========================= */
+document.addEventListener("DOMContentLoaded", () => {
+  initPokemonSearch();
+  initTabs();
+  initVLink();
+});
+
+/* =========================
+   ポケモン検索
+========================= */
 function initPokemonSearch() {
   if (!$("#pokesearch").length) return;
 
@@ -7,7 +19,9 @@ function initPokemonSearch() {
     .on("compositionstart", () => isComposing = true)
     .on("compositionend", () => isComposing = false)
     .autocomplete({
-      search: () => !isComposing,
+      search: function () {
+        return !isComposing;
+      },
 
       source: function (request, response) {
         const data = window.pokemonData || [];
@@ -36,7 +50,9 @@ function initPokemonSearch() {
     });
 }
 
-/* タブ */
+/* =========================
+   タブ切り替え
+========================= */
 function initTabs() {
   const tabs = document.querySelectorAll('.tab-buttons button');
   const contents = document.querySelectorAll('.tab-contents .content');
@@ -54,7 +70,9 @@ function initTabs() {
   });
 }
 
-/* リンク変換 */
+/* =========================
+   URLリンク自動変換
+========================= */
 function initVLink() {
   $(".vlink").each(function () {
     const html = $(this).html();
@@ -68,18 +86,13 @@ function initVLink() {
   });
 }
 
-/* CSリンク */
+/* =========================
+   CSリンク生成
+========================= */
 function csLink(starNum) {
-  const pageName = window.location.pathname.split('/').pop();
-  const pageNum = parseInt(pageName.replace('.html', ''), 10);
+  const pageName = window.location.pathname.split('/').pop(); // ページ名を取得
+  const pageNum = parseInt(pageName.replace('.html', ''), 10); // 数値化
   const csUrlNo = pageNum + 464549 + starNum * 214;
-  const csUrl = "https://cyberscore.me.uk/charts/" + csUrlNo;
-  window.open(csUrl, '_blank');
+  const csUrl = "https://cyberscore.me.uk/charts/" + csUrlNo; // URL作成
+  window.open(csUrl, '_blank'); // URLへジャンプ
 }
-
-/* 初期化（これだけ残す） */
-window.addEventListener("DOMContentLoaded", () => {
-  initPokemonSearch();
-  initTabs();
-  initVLink();
-});

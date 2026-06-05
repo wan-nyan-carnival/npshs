@@ -1,0 +1,222 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <a class="pagetop" href="#"><div class="pagetop__arrow"></div></a>
+
+  <div id="main-box">
+    <h2>ピチュー（Pichu）</h2>
+
+    <div class="tab">
+      <div class="tab-buttons">
+        <button class="active">★１</button>
+        <button>★２</button>
+        <button>★３</button>
+        <button>★４</button>
+      </div>
+
+      <div class="tab-contents">
+
+        <!-- ===================== ★1 ===================== -->
+        <div class="content active">
+
+          <div class="kakoi sp">
+            <h3>基本情報</h3>
+            <div class="column">
+              <div class="photo">
+                <img src="/npshs/img/2/poke1.png" />
+              </div>
+              <div class="data">
+                <table>
+                  <tr>
+                    <th>撮影エリア</th>
+                    <td>公園(昼) Lv3</td>
+                  </tr>
+                  <tr>
+                    <th>ポーズ</th>
+                    <td>変動(1000)</td>
+                  </tr>
+                  <tr>
+                    <th>位置</th>
+                    <td>頭と頭の中間</td>
+                  </tr>
+                  <tr>
+                    <th>ほかのポケモン</th>
+                    <td><span class="fri">サルノリ</span></td>
+                  </tr>
+                </table>
+                <button class="cs" onclick="csLink(0)">★CyberScore</button>
+              </div>
+            </div>
+
+            <h3>動画</h3>
+            <table class="vlink sp">
+              <tr>
+                <td>黒歌鳥</td>
+                <td>5665</td>
+                <td>https://www.youtube.com/watch?v=fQ9SuosxAVc</td>
+              </tr>
+            </table>
+
+            <h3>撮影手順</h3>
+            <div class="setup">
+              <p>誰か書いて。</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================== ★2 ===================== -->
+        <div class="content">
+
+          <div class="kakoi sp">
+            <h3>基本情報</h3>
+            <div class="column">
+              <div class="photo">
+                <img src="/npshs/img/2/poke2.png" />
+              </div>
+              <div class="data">
+                <table>
+                  <tr>
+                    <th>撮影エリア</th>
+                    <td>公園(昼) Lv3</td>
+                  </tr>
+                  <tr>
+                    <th>ポーズ</th>
+                    <td>変動(800)</td>
+                  </tr>
+                  <tr>
+                    <th>位置</th>
+                    <td>頭と頭の中間</td>
+                  </tr>
+                  <tr>
+                    <th>ほかのポケモン</th>
+                    <td>
+                      <span class="fri">ヒバニー</span>、サルノリ、シェイミ、キュワワー、フラージェス
+                    </td>
+                  </tr>
+                </table>
+                <button class="cs" onclick="csLink(1)">★CyberScore</button>
+              </div>
+            </div>
+
+            <h3>動画</h3>
+            <table class="vlink sp">
+              <tr>
+                <td>黒歌鳥</td>
+                <td>5854</td>
+                <td>https://www.youtube.com/watch?v=5bNRia2Sxac</td>
+              </tr>
+            </table>
+
+            <h3>撮影手順</h3>
+            <div class="setup">
+              <p>誰か書いて。</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================== ★3 ===================== -->
+        <div class="content">
+
+          <div class="kakoi sp">
+            <h3>基本情報</h3>
+            <div class="column">
+              <div class="photo">
+                <img src="/npshs/img/2/poke3.png" />
+              </div>
+              <div class="data">
+                <table>
+                  <tr>
+                    <th>撮影エリア</th>
+                    <td>公園(昼) Lv1</td>
+                  </tr>
+                  <tr>
+                    <th>ポーズ</th>
+                    <td>変動(800)</td>
+                  </tr>
+                  <tr>
+                    <th>位置</th>
+                    <td>頭</td>
+                  </tr>
+                  <tr>
+                    <th>ほかのポケモン</th>
+                    <td>サルノリ、エモンガ、ビッパ</td>
+                  </tr>
+                </table>
+                <button class="cs" onclick="csLink(2)">★CyberScore</button>
+              </div>
+            </div>
+
+            <h3>動画</h3>
+            <table class="vlink sp">
+              <tr>
+                <td>Quentin</td>
+                <td>5211</td>
+                <td>https://www.youtube.com/watch?v=bt8UVgSe3UY</td>
+              </tr>
+            </table>
+
+            <h3>撮影手順</h3>
+            <div class="setup">
+              <p>誰か書いて。</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===================== ★4 ===================== -->
+        <div class="content">
+
+          <div class="kakoi sp">
+            <h3>基本情報</h3>
+            <div class="column">
+              <div class="photo">
+                <img src="/npshs/img/2/poke4.png" />
+              </div>
+              <div class="data">
+                <table>
+                  <tr>
+                    <th>撮影エリア</th>
+                    <td>公園(昼) Lv3</td>
+                  </tr>
+                  <tr>
+                    <th>ポーズ</th>
+                    <td>変動(1000)</td>
+                  </tr>
+                  <tr>
+                    <th>位置</th>
+                    <td>頭と頭の中間</td>
+                  </tr>
+                  <tr>
+                    <th>ほかのポケモン</th>
+                    <td><span class="fri">ヒバニー</span>、エモンガ</td>
+                  </tr>
+                </table>
+                <button class="cs" onclick="csLink(3)">★CyberScore</button>
+              </div>
+            </div>
+
+            <h3>動画</h3>
+            <table class="vlink sp">
+              <tr>
+                <td>黒歌鳥</td>
+                <td>5713</td>
+                <td>https://www.youtube.com/watch?v=LEfZWnGk4fk</td>
+              </tr>
+            </table>
+
+            <h3>撮影手順</h3>
+            <div class="setup">
+              <p>誰か書いて。</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</Layout>

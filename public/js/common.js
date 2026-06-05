@@ -90,8 +90,10 @@ function initVLink() {
    CSリンク生成
 ========================= */
 function csLink(starNum) {
-  const pageName = window.location.pathname.split('/').pop(); // ページ名を取得
-  const pageNum = parseInt(pageName.replace('.html', ''), 10); // 数値化
+  const pageName = window.location.pathname
+    .split("/")
+    .filter(Boolean); // ページ名を取得
+  const pageNum = Number(pageName.pop()); // 数値化
   const csUrlNo = pageNum + 464549 + starNum * 214;
   const csUrl = "https://cyberscore.me.uk/charts/" + csUrlNo; // URL作成
   window.open(csUrl, '_blank'); // URLへジャンプ

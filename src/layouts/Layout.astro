@@ -23,9 +23,9 @@ const BASE = import.meta.env.BASE_URL;
   <!-- 共通ヘッダー -->
   <Topbox base={BASE} />
 
-  <!-- ページごとの中身。ここで base を slot で渡す -->
+  <!-- ページごとの中身 -->
   <main>
-    <slot base={BASE} />
+    <slot />
   </main>
 
 </body>

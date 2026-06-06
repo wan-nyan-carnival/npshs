@@ -4,7 +4,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   initPokemonSearch();
   initTabs();
-  initVLink();
 });
 
 /* =========================
@@ -36,7 +35,7 @@ function initPokemonSearch() {
           .map(p => ({
             label: `${p.jp} (${p.en})`,
             value: p.jp,
-            url: p.url
+            id: p.id
           }));
 
         response(results);
@@ -44,7 +43,7 @@ function initPokemonSearch() {
 
       select: function (event, ui) {
         $("#pokesearch").val("");
-        location.href = ui.item.url;
+        location.href = `/npshs/${ui.item.id}`;
         return false;
       }
     });
@@ -68,33 +67,4 @@ function initTabs() {
       contents[index].classList.add('active');
     });
   });
-}
-
-/* =========================
-   URLリンク自動変換
-========================= */
-function initVLink() {
-  $(".vlink").each(function () {
-    const html = $(this).html();
-
-    const converted = html.replace(
-      /(https?:\/\/[^\s<]+)/g,
-      '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
-    );
-
-    $(this).html(converted);
-  });
-}
-
-/* =========================
-   CSリンク生成
-========================= */
-function csLink(starNum) {
-  const pageName = window.location.pathname
-    .split("/")
-    .filter(Boolean); // ページ名を取得
-  const pageNum = Number(pageName.pop()); // 数値化
-  const csUrlNo = pageNum + 464549 + starNum * 214;
-  const csUrl = "https://cyberscore.me.uk/charts/" + csUrlNo; // URL作成
-  window.open(csUrl, '_blank'); // URLへジャンプ
 }

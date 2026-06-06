@@ -1,0 +1,14 @@
+---
+const { pokemonNo, starNum } = Astro.props;
+
+const BASE = 464549;
+const STEP = 214;
+
+const url = `https://cyberscore.me.uk/charts/${
+  BASE + pokemonNo + (starNum - 1) * STEP
+}`;
+---
+
+<a class="cs" href={url} target="_blank">
+  ★CyberScore
+</a>

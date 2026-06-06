@@ -166,7 +166,7 @@ h3 {
     border-radius: 0.5em;
     padding:1.0em;
 }
-.vlink, .setup {
+.vlink, .steps {
     margin-left:1.0em;
 }
 .vlink {
@@ -279,4 +279,5 @@ h3 {
     color: #fff;
     padding: 0.2rem 0.5rem;
     border-radius: 0.5em;
+    text-decoration: none;
 }

@@ -1,0 +1,123 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { pokemonList } from "../data";
+import { autoLink } from "../utils/linkify";
+import CsButton from "../components/CsButton.astro";
+
+export async function getStaticPaths() {
+  return pokemonList.map(p => ({
+    params: { id: p.id }
+  }));
+}
+
+const { id } = Astro.params;
+const pokemon = pokemonList.find(p => p.id === id);
+if (!pokemon) throw new Error("Pokemon not found");
+
+const stars = [1, 2, 3, 4];
+---
+
+<Layout>
+  <div id="main-box">
+    <h2>{pokemon.name}</h2>
+
+    <!-- タブボタン -->
+    <div class="tab-buttons">
+      {stars.map((s, i) => (
+        <button class={i === 0 ? "active" : ""}>
+          ★{s}
+        </button>
+      ))}
+    </div>
+
+    <!-- タブ内容 -->
+    <div class="tab-contents">
+
+      {stars.map((star, i) => {
+        const entries = pokemon.stars?.[star] ?? [];
+
+        return (
+          <div class={`content ${i === 0 ? "active" : ""}`}>
+
+            {entries.map((entry, j) => (
+              <div class="kakoi sp">
+
+                <h3>基本情報</h3>
+
+                <div class="column">
+                  <div class="photo">
+                    <img src={entry.image} />
+                  </div>
+
+                  <div class="data">
+                    <table>
+                      <tr>
+                        <th>撮影エリア</th>
+                        <td>{entry.info.area}</td>
+                      </tr>
+                      <tr>
+                        <th>ポーズ</th>
+                        <td>{entry.info.pose}</td>
+                      </tr>
+                      <tr>
+                        <th>位置</th>
+                        <td>{entry.info.position}</td>
+                      </tr>
+                      <tr>
+                        <th>ほかのポケモン</th>
+                        <td>
+                          {entry.info.friend?.map((name, i) => (
+                            <>
+                              <span class="fri">{name}</span>
+                              {i < entry.info.friend.length - 1 && "、"}
+                            </>
+                          ))}
+
+                          {entry.info.friend?.length > 0 && entry.info.others?.trim() && "、"}
+
+                          {entry.info.others?.trim() && entry.info.others}
+                        </td>
+                      </tr>
+                    </table>
+
+                    <CsButton pokemonNo={pokemon.no} starNum={star} />
+                  </div>
+                </div>
+
+                <h3>動画</h3>
+
+                <table class="vlink sp">
+                  {entry.videos.map((v) => (
+                    <tr>
+                      <td>{v.name}</td>
+                      <td>{v.id}</td>
+                      <td set:html={autoLink(v.url)} />
+                    </tr>
+                  ))}
+                </table>
+
+                <h3>撮影手順</h3>
+                <ol class="steps">
+                  {entry.steps?.map((step) => (
+                    <li>
+                      {step.type === "text" && (
+                        <p>{step.content}</p>
+                      )}
+
+                      {step.type === "image" && (
+                        <img src={step.src} alt={step.alt ?? ""} />
+                      )}
+                    </li>
+                  ))}
+                </ol>
+
+              </div>
+            ))}
+
+          </div>
+        );
+      })}
+
+    </div>
+  </div>
+</Layout>

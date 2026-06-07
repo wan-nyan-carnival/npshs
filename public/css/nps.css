@@ -199,6 +199,9 @@ h3 {
 .vlink a:hover{
     opacity:0.7;
 }
+.steps p {
+    white-space: pre-line; // \nで改行
+}
 
 /* ページトップに戻る */
 .pagetop {

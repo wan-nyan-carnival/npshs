@@ -15,12 +15,12 @@ export default {
           videos: [
             {
               name: "黒歌鳥",
-              id: "5435",
+              score: "5435",
               url: "https://www.youtube.com/watch?v=OsmVx1Jvd6E",
             },
             {
               name: "Quentin",
-              id: "5276",
+              score: "5276",
               url: "https://www.youtube.com/watch?v=OxzjlmEFnRI",
             },
           ],
@@ -42,7 +42,7 @@ export default {
           videos: [
             {
               name: "Quentin",
-              id: "5411",
+              score: "5411",
               url: "https://www.youtube.com/watch?v=iun_koS6XKE",
             },
           ],
@@ -64,12 +64,12 @@ export default {
           videos: [
             {
               name: "Quentin",
-              id: "5303",
+              score: "5303",
               url: "https://www.youtube.com/watch?v=_UWY2BD3YDw",
             },
             {
               name: "黒歌鳥",
-              id: "5284",
+              score: "5284",
               url: "https://www.youtube.com/watch?v=fRN8VtYxmFo",
             },
           ],
@@ -88,7 +88,7 @@ export default {
           videos: [
             {
               name: "Quentin",
-              id: "5238",
+              score: "5238",
               url: "https://www.youtube.com/watch?v=QCyT_mRv-Oo",
             },
           ],
@@ -110,12 +110,12 @@ export default {
           videos: [
             {
               name: "黒歌鳥",
-              id: "4901",
+              score: "4901",
               url: "https://www.youtube.com/watch?v=A1_jEcjeao8",
             },
             {
               name: "Quentin",
-              id: "4890",
+              score: "4890",
               url: "https://www.youtube.com/watch?v=DnQnn-RDm-c",
             },
           ],
@@ -134,12 +134,12 @@ export default {
           videos: [
             {
               name: "黒歌鳥",
-              id: "4882",
+              score: "4882",
               url: "https://www.youtube.com/watch?v=GSlOKudJbe0",
             },
             {
               name: "Quentin",
-              id: "4882",
+              score: "4882",
               url: "https://www.youtube.com/watch?v=GwgMH_1eXxA",
             },
           ],
@@ -161,7 +161,7 @@ export default {
           videos: [
             {
               name: "Quentin",
-              id: "5157",
+              score: "5157",
               url: "https://www.youtube.com/watch?v=00y-JdIuj0c",
             },
           ],
@@ -181,7 +181,7 @@ export default {
           videos: [
             {
               name: "Quentin",
-              id: "5125",
+              score: "5125",
               url: "https://www.youtube.com/watch?v=1SGdnavI-28",
             },
           ],

@@ -90,7 +90,7 @@ const stars = [1, 2, 3, 4];
                   {entry.videos.map((v) => (
                     <tr>
                       <td>{v.name}</td>
-                      <td>{v.id}</td>
+                      <td>{v.score}</td>
                       <td set:html={autoLink(v.url)} />
                     </tr>
                   ))}

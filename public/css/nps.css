@@ -81,6 +81,11 @@ h3 {
     flex-wrap:wrap;
     margin-bottom:1.5rem;
 }
+@media (max-width: 768px) {
+  .pokelist {
+    width:100%;
+  }
+}
 .pokelist div {
     width: calc((100% - 35px) / 8);
     height:auto;

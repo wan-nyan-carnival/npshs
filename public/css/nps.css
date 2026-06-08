@@ -56,6 +56,11 @@ h3 {
     margin-top:0.4rem;
     padding:1px 5px;
 }
+@media (max-width: 768px) {
+  #pokesearch {
+    width:100%;
+  }
+}
 #main-box {
     width:100%;
     max-width:50.0em;

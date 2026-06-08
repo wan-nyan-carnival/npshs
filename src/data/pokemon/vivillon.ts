@@ -1,11 +1,13 @@
+const no = 1;
+
 export default {
     id: "vivillon",
     name: "ビビヨン",
-    no: 1,
+    no,
     stars: {
       1: [
         {
-          image: "/npshs/img/1/poke1a.png",
+          image: `/npshs/img/${no}/poke1a.png`,
           info: {
             area: "公園(昼) Lv3",
             pose: "変動",
@@ -32,7 +34,7 @@ export default {
           ]
         },
         {
-          image: "/npshs/img/1/poke1b.png",
+          image: `/npshs/img/${no}/poke1b.png`,
           info: {
             area: "ジャングル(昼) Lv3",
             pose: "固定(950)",
@@ -54,7 +56,7 @@ export default {
 
       2: [
         {
-          image: "/npshs/img/1/poke2a.png",
+          image: `/npshs/img/${no}/poke2a.png`,
           info: {
             area: "抜け道(夜)",
             pose: "変動",
@@ -78,7 +80,7 @@ export default {
           ]
         },
         {
-          image: "/npshs/img/1/poke2b.png",
+          image: `/npshs/img/${no}/poke2b.png`,
           info: {
             area: "リバー(夜) Lv2",
             pose: "変動",
@@ -100,7 +102,7 @@ export default {
 
       3: [
         {
-          image: "/npshs/img/1/poke3a.png",
+          image: `/npshs/img/${no}/poke3a.png`,
           info: {
             area: "荒野(夜) Lv2",
             pose: "固定(500)",
@@ -124,7 +126,7 @@ export default {
           ]
         },
         {
-          image: "/npshs/img/1/poke3b.png",
+          image: `/npshs/img/${no}/poke3b.png`,
           info: {
             area: "海上(夕) Lv2",
             pose: "変動",
@@ -151,7 +153,7 @@ export default {
 
       4: [
         {
-          image: "/npshs/img/1/poke4a.png",
+          image: `/npshs/img/${no}/poke4a.png`,
           info: {
             area: "ベースキャンプ(入口)",
             pose: "変動",
@@ -170,7 +172,7 @@ export default {
           ]
         },
         {
-          image: "/npshs/img/1/poke4b.png",
+          image: `/npshs/img/${no}/poke4b.png`,
           info: {
             area: "ジャングル(昼) Lv2",
             pose: "固定(500)",

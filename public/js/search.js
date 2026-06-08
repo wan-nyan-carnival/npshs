@@ -10,39 +10,47 @@ window.addEventListener("load", () => {
     );
   }
 
-  // 表示用ラベル（Awesompleteは文字列で安定させる）
+  // ★重要：Awesomplete用は「文字列＋id埋め込み」
   const list = window.pokemonData.map(p => ({
     label: `${p.jp} / ${p.en}`,
-    value: p
+    value: p.id
   }));
 
   const aw = new Awesomplete(input, {
-    list: list,
+    list,
     minChars: 1,
 
-    // 表示形式
-    item: function (text, input) {
-      return Awesomplete.ITEM(text.label, text);
+    // 表示
+    item: function (text) {
+      return Awesomplete.ITEM(text.label, text.label);
     },
 
-    // フィルタ（ここが重要）
-    filter: function (item, input) {
-      const q = hiraToKana((input || "").toString().toLowerCase());
+    // フィルタ
+    filter: function (item, inputValue) {
+      const q = hiraToKana((inputValue || "").toString().toLowerCase());
+
+      const p = window.pokemonData.find(x => x.id === item.value);
+      if (!p) return false;
 
       return (
-        item.value.jp.startsWith(q) ||
-        item.value.kana.startsWith(q) ||
-        item.value.en.toLowerCase().startsWith(q)
+        p.jp.startsWith(q) ||
+        p.kana.startsWith(q) ||
+        p.en.toLowerCase().startsWith(q)
       );
     }
   });
 
-  // 選択時の遷移
+  // 選択時
   input.addEventListener("awesomplete-selectcomplete", (e) => {
-    const selected = e.text.value; // {id, jp, kana, en}
+    const id = e.text.value;
 
-    if (selected && selected.id) {
-      window.location.href = `/npshs/${selected.id}`;
-    }
+    input.value = "";
+
+    window.location.href = `/npshs/${id}`;
+  });
+
+  // 戻る対策
+  window.addEventListener("pageshow", () => {
+    input.value = "";
   });
 });

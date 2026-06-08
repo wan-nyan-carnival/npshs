@@ -58,6 +58,7 @@ export default {
             area: "砂漠(昼) Lv3",
             pose: "変動(800)",
             position: "頭",
+            friend: [""],
             others: "エレザード",
           },
           videos: [

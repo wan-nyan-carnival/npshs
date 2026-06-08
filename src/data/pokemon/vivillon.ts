@@ -12,6 +12,7 @@ export default {
             area: "公園(昼) Lv3",
             pose: "変動",
             position: "頭",
+            friend: [""],
             others: "サルノリ、ヒバニー、フラージェス、キュワワー、ビビヨン",
           },
           videos: [
@@ -39,6 +40,7 @@ export default {
             area: "ジャングル(昼) Lv3",
             pose: "固定(950)",
             position: "頭",
+            friend: [""],
             others: "リーフィア、メッソン、ミュウ、コイキング、アゲハント",
           },
           videos: [
@@ -61,6 +63,7 @@ export default {
             area: "抜け道(夜)",
             pose: "変動",
             position: "頭",
+            friend: [""],
             others: "ピカチュウ、イーブイ、コイキング、ビークイン、ミツハニー、タマゲタケ",
           },
           videos: [
@@ -85,6 +88,7 @@ export default {
             area: "リバー(夜) Lv2",
             pose: "変動",
             position: "頭",
+            friend: [""],
             others: "ウパー、ヌオー、ラグラージ",
           },
           videos: [
@@ -107,6 +111,7 @@ export default {
             area: "荒野(夜) Lv2",
             pose: "固定(500)",
             position: "頭",
+            friend: [""],
             others: "ゼラオラ、バンギラス、ビビヨン、グライオン、イワパレス",
           },
           videos: [
@@ -131,6 +136,7 @@ export default {
             area: "海上(夕) Lv2",
             pose: "変動",
             position: "頭",
+            friend: [""],
             others: "なし",
           },
           videos: [
@@ -158,6 +164,7 @@ export default {
             area: "ベースキャンプ(入口)",
             pose: "変動",
             position: "頭",
+            friend: [""],
             others: "ウソッキー、ピカチュウ、ヤブクロン、コラッタ、デデンネ",
           },
           videos: [

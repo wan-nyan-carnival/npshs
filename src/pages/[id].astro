@@ -21,7 +21,6 @@ const stars = [1, 2, 3, 4];
   <div id="main-box">
     <h2>{pokemon.name}</h2>
 
-    <!-- タブボタン -->
     <div class="tab-buttons">
       {stars.map((s, i) => (
         <button class={i === 0 ? "active" : ""}>
@@ -30,7 +29,6 @@ const stars = [1, 2, 3, 4];
       ))}
     </div>
 
-    <!-- タブ内容 -->
     <div class="tab-contents">
 
       {stars.map((star, i) => {
@@ -39,80 +37,99 @@ const stars = [1, 2, 3, 4];
         return (
           <div class={`content ${i === 0 ? "active" : ""}`}>
 
-            {entries.map((entry, j) => (
-              <div class="kakoi sp">
+            {entries.map((entry) => {
+              const friends = (entry.info.friend ?? []).filter(
+                (name) => name?.trim()
+              );
 
-                <h3>基本情報</h3>
+              return (
+                <div class="kakoi sp">
 
-                <div class="column">
-                  <div class="photo">
-                    <img src={entry.image} />
+                  <h3>基本情報</h3>
+
+                  <div class="column">
+                    <div class="photo">
+                      <img src={entry.image} />
+                    </div>
+
+                    <div class="data">
+                      <table>
+                        <tr>
+                          <th>撮影エリア</th>
+                          <td>{entry.info.area}</td>
+                        </tr>
+
+                        <tr>
+                          <th>ポーズ</th>
+                          <td>{entry.info.pose}</td>
+                        </tr>
+
+                        <tr>
+                          <th>位置</th>
+                          <td>{entry.info.position}</td>
+                        </tr>
+
+                        <tr>
+                          <th>ほかのポケモン</th>
+                          <td>
+                            {friends.map((name, idx) => (
+                              <>
+                                <span class="fri">{name}</span>
+                                {idx < friends.length - 1 && "、"}
+                              </>
+                            ))}
+
+                            {friends.length > 0 &&
+                              entry.info.others?.trim() &&
+                              "、"}
+
+                            {entry.info.others?.trim() &&
+                              entry.info.others}
+                          </td>
+                        </tr>
+                      </table>
+
+                      <CsButton
+                        pokemonNo={pokemon.no}
+                        starNum={star}
+                      />
+                    </div>
                   </div>
 
-                  <div class="data">
-                    <table>
-                      <tr>
-                        <th>撮影エリア</th>
-                        <td>{entry.info.area}</td>
-                      </tr>
-                      <tr>
-                        <th>ポーズ</th>
-                        <td>{entry.info.pose}</td>
-                      </tr>
-                      <tr>
-                        <th>位置</th>
-                        <td>{entry.info.position}</td>
-                      </tr>
-                      <tr>
-                        <th>ほかのポケモン</th>
-                        <td>
-                          {entry.info.friend?.map((name, i) => (
-                            <>
-                              <span class="fri">{name}</span>
-                              {i < entry.info.friend.length - 1 && "、"}
-                            </>
-                          ))}
+                  <h3>動画</h3>
 
-                          {entry.info.friend?.length > 0 && entry.info.others?.trim() && "、"}
-
-                          {entry.info.others?.trim() && entry.info.others}
-                        </td>
+                  <table class="vlink sp">
+                    {entry.videos.map((v) => (
+                      <tr>
+                        <td>{v.name}</td>
+                        <td>{v.score}</td>
+                        <td set:html={autoLink(v.url)} />
                       </tr>
-                    </table>
+                    ))}
+                  </table>
 
-                    <CsButton pokemonNo={pokemon.no} starNum={star} />
-                  </div>
+                  <h3>撮影手順</h3>
+
+                  <ol class="steps">
+                    {entry.steps?.map((step) => (
+                      <li>
+                        {step.type === "text" && (
+                          <p>{step.content}</p>
+                        )}
+
+                        {step.type === "image" && (
+                          <img
+                            src={step.src}
+                            alt={step.alt ?? ""}
+                          />
+                        )}
+                      </li>
+                    ))}
+                  </ol>
+
                 </div>
-
-                <h3>動画</h3>
-
-                <table class="vlink sp">
-                  {entry.videos.map((v) => (
-                    <tr>
-                      <td>{v.name}</td>
-                      <td>{v.score}</td>
-                      <td set:html={autoLink(v.url)} />
-                    </tr>
-                  ))}
-                </table>
-
-                <h3>撮影手順</h3>
-                <ol class="steps">
-                  {entry.steps?.map((step) => (
-                    <li>
-                      {step.type === "text" && (
-                        <p>{step.content}</p>
-                      )}
-
-                      {step.type === "image" && (
-                        <img src={step.src} alt={step.alt ?? ""} />
-                      )}
-                    </li>
-                  ))}
-                </ol>
-
-              </div>
-            ))}
+              );
+            })}
 
           </div>
         );

@@ -12,6 +12,7 @@ export default {
             area: "公園(昼) Lv1",
             pose: "変動(1000)",
             position: "頭",
+            friend: [""],
             others: "ピチュー、ビッパ",
           },
           videos: [

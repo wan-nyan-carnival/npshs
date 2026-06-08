@@ -1,26 +1,26 @@
-const no = 4;
+const no = 11;
 
 export default {
-    id: "scorbunny",
-    name: "ヒバニー",
-    en: "Scorbunny",
+    id: "caterpie",
+    name: "キャタピー",
+    en: "Caterpie",
     no,
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "抜け道(昼)",
+            area: "抜け道(夜)",
             pose: "変動(1000)",
             position: "頭",
-            friend: ["ピチュー"],
-            others: "スバメ",
+            friend: [""],
+            others: "キャタピー",
           },
           videos: [
             {
-              name: "Herpingyoshi",
-              score: "5659",
-              url: "https://www.youtube.com/watch?v=GonUnmWW8S0",
+              name: "黒歌鳥",
+              score: "5331",
+              url: "https://www.youtube.com/watch?v=eO5Uo2vArkE",
             },
           ],
           steps: [
@@ -33,17 +33,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "公園(昼) Lv3",
+            area: "抜け道(夜)",
             pose: "変動(800)",
-            position: "頭と頭の中間",
-            friend: ["サルノリ"],
-            others: "キュワワー",
+            position: "頭",
+            friend: [""],
+            others: "キャタピー",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5756",
-              url: "https://www.youtube.com/watch?v=pasyiGgOAJ0",
+              score: "5170",
+              url: "https://www.youtube.com/watch?v=CrQ-xm1RD9A",
             },
           ],
           steps: [
@@ -56,17 +56,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "砂漠(昼) Lv3",
-            pose: "変動(800)",
+            area: "抜け道(夜)",
+            pose: "変動(1000)",
             position: "頭",
             friend: [""],
-            others: "エレザード",
+            others: "ミツハニー",
           },
           videos: [
             {
-              name: "Herpingyoshi",
-              score: "5113",
-              url: "https://www.youtube.com/watch?v=ElC4nucCKUI",
+              name: "黒歌鳥",
+              score: "5353",
+              url: "https://www.youtube.com/watch?v=jhC3u_55fPE",
             },
           ],
           steps: [
@@ -79,17 +79,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "公園(昼) Lv3",
-            pose: "950(固定)",
-            position: "頭と頭の間",
-            friend: ["ヒバニー"],
-            others: "サルノリ、キュワワー",
+            area: "抜け道(夜)",
+            pose: "変動(1000)",
+            position: "頭",
+            friend: ["キャタピー"],
+            others: "",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5903",
-              url: "https://www.youtube.com/watch?v=99bpjjPWZuk",
+              score: "5864",
+              url: "https://youtu.be/YEl1-TglSb8?si=fG287NaKwvvHz4IS",
             },
           ],
           steps: [

@@ -1,26 +1,26 @@
-const no = 4;
+const no = 13;
 
 export default {
-    id: "scorbunny",
-    name: "ヒバニー",
-    en: "Scorbunny",
+    id: "pinsir",
+    name: "カイロス",
+    en: "Pinsir",
     no,
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "抜け道(昼)",
-            pose: "変動(1000)",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(800)",
             position: "頭",
-            friend: ["ピチュー"],
-            others: "スバメ",
+            friend: [""],
+            others: "ビビヨン、カバルドン",
           },
           videos: [
             {
-              name: "Herpingyoshi",
-              score: "5659",
-              url: "https://www.youtube.com/watch?v=GonUnmWW8S0",
+              name: "黒歌鳥",
+              score: "5454",
+              url: "https://www.youtube.com/watch?v=r9ZqqV06AFk",
             },
           ],
           steps: [
@@ -33,17 +33,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "公園(昼) Lv3",
-            pose: "変動(800)",
-            position: "頭と頭の中間",
-            friend: ["サルノリ"],
-            others: "キュワワー",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭",
+            friend: [""],
+            others: "ビビヨン、カバルドン",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5756",
-              url: "https://www.youtube.com/watch?v=pasyiGgOAJ0",
+              score: "5581",
+              url: "https://www.youtube.com/watch?v=AWTVWr1tT1o",
             },
           ],
           steps: [
@@ -56,17 +56,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "砂漠(昼) Lv3",
-            pose: "変動(800)",
-            position: "頭",
-            friend: [""],
-            others: "エレザード",
+            area: "公園(夜) Lv2",
+            pose: "変動(1000)",
+            position: "頭と頭の間",
+            friend: ["ヘラクロス"],
+            others: "",
           },
           videos: [
             {
-              name: "Herpingyoshi",
-              score: "5113",
-              url: "https://www.youtube.com/watch?v=ElC4nucCKUI",
+              name: "黒歌鳥",
+              score: "5653",
+              url: "https://www.youtube.com/watch?v=Z-qi-lsHc1M",
             },
           ],
           steps: [
@@ -79,17 +79,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "公園(昼) Lv3",
-            pose: "950(固定)",
+            area: "公園(夜) Lv2",
+            pose: "変動1000",
             position: "頭と頭の間",
-            friend: ["ヒバニー"],
-            others: "サルノリ、キュワワー",
+            friend: ["ヘラクロス"],
+            others: "ニンフィア、ピチュー、サルノリ、スワンナ",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5903",
-              url: "https://www.youtube.com/watch?v=99bpjjPWZuk",
+              score: "5853",
+              url: "https://www.youtube.com/watch?v=Xjb8F_sZ5W4",
             },
           ],
           steps: [

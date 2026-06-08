@@ -1,26 +1,26 @@
-const no = 4;
+const no = 17;
 
 export default {
-    id: "scorbunny",
-    name: "ヒバニー",
-    en: "Scorbunny",
+    id: "bidoof",
+    name: "ビッパ",
+    en: "Bidoof",
     no,
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "抜け道(昼)",
-            pose: "変動(1000)",
-            position: "頭",
-            friend: ["ピチュー"],
-            others: "スバメ",
+            area: "公園(昼) Lv2",
+            pose: "",
+            position: "",
+            friend: [""],
+            others: "",
           },
           videos: [
             {
-              name: "Herpingyoshi",
-              score: "5659",
-              url: "https://www.youtube.com/watch?v=GonUnmWW8S0",
+              name: "tripledubz",
+              score: "5447",
+              url: "https://www.twitch.tv/videos/2712615778",
             },
           ],
           steps: [
@@ -34,16 +34,16 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "変動(800)",
-            position: "頭と頭の中間",
-            friend: ["サルノリ"],
-            others: "キュワワー",
+            pose: "",
+            position: "",
+            friend: [""],
+            others: "",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5756",
-              url: "https://www.youtube.com/watch?v=pasyiGgOAJ0",
+              name: "Quentin",
+              score: "5543",
+              url: "https://www.youtube.com/watch?v=ZTxFI5iyyPA",
             },
           ],
           steps: [
@@ -56,17 +56,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "砂漠(昼) Lv3",
-            pose: "変動(800)",
-            position: "頭",
+            area: "公園(昼) Lv3",
+            pose: "",
+            position: "",
             friend: [""],
-            others: "エレザード",
+            others: "",
           },
           videos: [
             {
-              name: "Herpingyoshi",
-              score: "5113",
-              url: "https://www.youtube.com/watch?v=ElC4nucCKUI",
+              name: "Quentin",
+              score: "5612",
+              url: "https://www.youtube.com/watch?v=P4pPwPitrsQ",
             },
           ],
           steps: [
@@ -80,16 +80,16 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "950(固定)",
-            position: "頭と頭の間",
-            friend: ["ヒバニー"],
-            others: "サルノリ、キュワワー",
+            pose: "",
+            position: "",
+            friend: [""],
+            others: "",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5903",
-              url: "https://www.youtube.com/watch?v=99bpjjPWZuk",
+              name: "Quentin",
+              score: "5302",
+              url: "https://www.youtube.com/watch?v=O_bdh0GsHPk",
             },
           ],
           steps: [

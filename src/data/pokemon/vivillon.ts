@@ -3,6 +3,7 @@ const no = 1;
 export default {
     id: "vivillon",
     name: "ビビヨン",
+    en: "Vivillon",
     no,
     stars: {
       1: [

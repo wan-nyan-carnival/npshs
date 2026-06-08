@@ -1,26 +1,26 @@
-const no = 5;
+const no = 12;
 
 export default {
-    id: "bouffalant",
-    name: "バッフロン",
-    en: "Bouffalant",
+    id: "heracross",
+    name: "ヘラクロス",
+    en: "Heracross",
     no,
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "公園(昼) Lv3",
+            area: "公園(夜) Lv2",
             pose: "変動(1000)",
             position: "頭",
             friend: [""],
-            others: "ピチュー、サルノリ、バッフロン、ビビヨン",
+            others: "カイロス、ニンフィア、ピチュー、サルノリ、コイキング、スワンナ",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5088",
-              url: "https://www.youtube.com/watch?v=v7XSkgJHEH8",
+              name: "黒歌鳥",
+              score: "5667",
+              url: "https://www.youtube.com/watch?v=Vo6_oqfRprg",
             },
           ],
           steps: [
@@ -33,17 +33,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "公園(昼) Lv3",
-            pose: "500(固定)",
-            position: "首",
-            friend: ["ビッパ"],
-            others: "ピチュー、サルノリ、バッフロン、ビビヨン",
+            area: "公園(夜) Lv2",
+            pose: "変動(1000)",
+            position: "頭",
+            friend: [""],
+            others: "カイロス、ニンフィア、ピチュー、サルノリ、コイキング、スワンナ",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5077",
-              url: "https://www.youtube.com/watch?v=BZ4puCKMVno",
+              score: "5676",
+              url: "https://www.youtube.com/watch?v=vnXZYNYV9cI",
             },
           ],
           steps: [
@@ -56,17 +56,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "公園(昼) Lv2",
+            area: "公園(夜) Lv2",
             pose: "変動(1000)",
             position: "頭",
             friend: [""],
-            others: "キュワワー",
+            others: "カイロス、ニンフィア、ピチュー、サルノリ、コイキング、スワンナ",
           },
           videos: [
             {
-              name: "nattattack123",
-              score: "5006",
-              url: "https://www.twitch.tv/videos/1806315882",
+              name: "黒歌鳥",
+              score: "5873",
+              url: "https://www.youtube.com/watch?v=fPU3bhALVb4",
             },
           ],
           steps: [
@@ -79,17 +79,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "公園(昼) Lv3",
+            area: "公園(夜) Lv2",
             pose: "変動(1000)",
             position: "頭",
-            friend: ["バッフロン"],
-            others: "ピチュー、サルノリ、ビッパ",
+            friend: ["カイロス"],
+            others: "ニンフィア、ピチュー、サルノリ、コイキング、スワンナ",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5256",
-              url: "https://www.youtube.com/watch?v=fnUw8FZDuqM",
+              name: "Pokemario6456",
+              score: "6032",
+              url: "https://www.youtube.com/watch?v=t7JOQO5n7sg",
             },
           ],
           steps: [

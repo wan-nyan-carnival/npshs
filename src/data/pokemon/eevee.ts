@@ -54,7 +54,7 @@ export default {
 
       3: [
         {
-          image: `/npshs/img/${no}/poke3.png`,
+          image: `/npshs/img/${no}/poke3a.png`,
           info: {
             area: "公園(イルミナ)",
             pose: "変動(1000)",
@@ -72,6 +72,26 @@ export default {
           steps: [
             { type: "text", content: "誰か書いて。" },
           ]
+        },
+        {
+          image: `/npshs/img/${no}/poke3b.png`,
+          info: {
+            area: "抜け道(夜)",
+            pose: "変動(800)",
+            position: "頭",
+            friend: ["ピカチュウ"],
+            others: "ミツハニー、ビビヨン",
+          },
+          videos: [
+            {
+              name: "黒歌鳥",
+              score: "5408",
+              url: "https://www.youtube.com/watch?v=y6BCKDw228I",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
         }
       ],
 
@@ -83,7 +103,7 @@ export default {
             pose: "変動(1000)",
             position: "頭",
             friend: [""],
-            others: "アブリー、",
+            others: "アブリー、ムーランド",
           },
           videos: [
             {

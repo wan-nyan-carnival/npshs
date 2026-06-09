@@ -80,7 +80,7 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "変動1000",
+            pose: "変動(1000)",
             position: "頭と頭の間",
             friend: ["ヘラクロス"],
             others: "ニンフィア、ピチュー、サルノリ、スワンナ",

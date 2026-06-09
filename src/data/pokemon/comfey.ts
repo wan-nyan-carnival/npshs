@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "キュワワー",
           },
           videos: [
             {
@@ -34,10 +34,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "抜け道(昼)",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "頭と頭の間",
+            friend: ["ピチュー"],
+            others: "ヒバニー、ドダイトス",
           },
           videos: [
             {
@@ -57,10 +57,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "中央の赤い花",
             friend: [""],
-            others: "",
+            others: "キュワワー、バッフロン、ビビヨン",
           },
           videos: [
             {
@@ -85,10 +85,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "固定(750)",
+            position: "中央の赤い花",
             friend: [""],
-            others: "",
+            others: "サルノリ、キュワワー",
           },
           videos: [
             {

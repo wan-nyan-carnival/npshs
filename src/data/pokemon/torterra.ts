@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "抜け道(昼)",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "固定(500)",
+            position: "胴",
+            friend: ["ニンフィア"],
+            others: "ビビヨン、キュワワー",
           },
           videos: [
             {
@@ -34,10 +34,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "抜け道(昼)",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(550)",
+            position: "胴",
+            friend: ["ニンフィア"],
+            others: "キノココ、ビビヨン、キュワワー",
           },
           videos: [
             {
@@ -57,10 +57,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "抜け道(昼)",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "胴と頭の間",
+            friend: ["ヒバニー"],
+            others: "ピチュー",
           },
           videos: [
             {
@@ -80,10 +80,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: ["ニンフィア"],
+            others: "ピチュー、ヒバニー、ドードリオ、ミツハニー",
           },
           videos: [
             {

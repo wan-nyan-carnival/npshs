@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "スバメ",
           },
           videos: [
             {
@@ -34,9 +34,9 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "変動(800)",
+            position: "胴と胴の間",
+            friend: ["スバメ"],
             others: "",
           },
           videos: [
@@ -57,10 +57,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: ["ケムッソ"],
+            others: "スバメ、ビッパ",
           },
           videos: [
             {
@@ -80,10 +80,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: ["ケムッソ"],
+            others: "スバメ、ビッパ",
           },
           videos: [
             {

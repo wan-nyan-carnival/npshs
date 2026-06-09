@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "シェイミ、サルノリ、ピチュー、ヒバニー、キュワワー",
           },
           videos: [
             {
@@ -31,13 +31,13 @@ export default {
 
       2: [
         {
-          image: `/npshs/img/${no}/poke2.png`,
+          image: `/npshs/img/${no}/poke2a.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "キュワワー、バッフロン",
           },
           videos: [
             {
@@ -45,6 +45,21 @@ export default {
               score: "5607",
               url: "https://www.youtube.com/watch?v=JXgFxwG8uZk",
             },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke2b.png`,
+          info: {
+            area: "公園(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: [""],
+            others: "シェイミ、サルノリ、ピチュー、ヒバニー、キュワワー",
+          },
+          videos: [
             {
               name: "黒歌鳥",
               score: "5591",
@@ -62,10 +77,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "シェイミ、サルノリ、ピチュー、ヒバニー、キュワワー",
           },
           videos: [
             {
@@ -85,10 +100,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "シェイミ、サルノリ、ピチュー、ヒバニー、キュワワー",
           },
           videos: [
             {

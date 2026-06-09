@@ -80,7 +80,7 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "950(固定)",
+            pose: "固定(950)",
             position: "頭と頭の間",
             friend: ["ヒバニー"],
             others: "サルノリ、キュワワー",

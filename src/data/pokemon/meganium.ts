@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(イルミナ)",
-            pose: "",
-            position: "",
+            pose: "変動",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "シェイミ、ニンフィア、ホーホー、ミツハニー",
           },
           videos: [
             {
@@ -34,16 +34,21 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "公園(イルミナ)",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(2000)",
+            position: "頭と頭の間",
+            friend: ["ニンフィア"],
+            others: "イーブイ、シェイミ",
           },
           videos: [
             {
               name: "tripledubz",
-              score: "5674",
+              score: "6574",
               url: "https://www.twitch.tv/videos/2733827166",
+            },
+            {
+              name: "黒歌鳥",
+              score: "6497",
+              url: "https://www.youtube.com/watch?v=QezecFCYT1E",
             },
           ],
           steps: [
@@ -57,10 +62,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "公園(イルミナ)",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1800)",
+            position: "首",
+            friend: ["シェイミ"],
+            others: "ホーホー",
           },
           videos: [
             {
@@ -80,10 +85,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(イルミナ)",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(2000)",
+            position: "頭と胴の間",
+            friend: ["ホーホー"],
+            others: "ニンフィア、ミツハニー、エモンガ",
           },
           videos: [
             {

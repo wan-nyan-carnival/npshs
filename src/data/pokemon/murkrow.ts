@@ -11,7 +11,7 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "500(固定)",
+            pose: "固定(500)",
             position: "頭",
             friend: ["ヤミカラス"],
             others: "モジャンボ、スワンナ、バッフロン",
@@ -57,7 +57,7 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "抜け道(夜)",
-            pose: "1000(変動)",
+            pose: "変動(1000)",
             position: "胴と胴の間",
             friend: ["ヤミカラス"],
             others: "ビークイン",

@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(昼) Lv1",
-            pose: "",
-            position: "",
+            pose: "固定(1950)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
@@ -34,9 +34,9 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "公園(昼) Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "変動(2000)",
+            position: "頭と頭の間",
+            friend: ["サルノリ"],
             others: "",
           },
           videos: [
@@ -57,10 +57,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "固定(1500)",
+            position: "胴と胴の間",
+            friend: ["ピチュー"],
+            others: "ヒバニー、ニンフィア、ドダイトス、ミツハニー",
           },
           videos: [
             {
@@ -80,10 +80,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(2000)",
+            position: "頭と頭の間",
+            friend: ["ヒバニー"],
+            others: "サルノリ、ピチュー、キュワワー",
           },
           videos: [
             {

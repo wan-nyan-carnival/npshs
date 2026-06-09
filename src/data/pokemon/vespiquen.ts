@@ -1,9 +1,9 @@
 const no = 25;
 
 export default {
-    id: "combee",
+    id: "vespiquen",
     name: "ビークイン",
-    en: "Combee",
+    en: "Vespiquen",
     no,
     stars: {
       1: [
@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "抜け道(夜)",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "下半身",
             friend: [""],
-            others: "",
+            others: "ミツハニー",
           },
           videos: [
             {
@@ -34,10 +34,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "抜け道(夜)",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "下半身",
             friend: [""],
-            others: "",
+            others: "ミツハニー、ピジョット",
           },
           videos: [
             {
@@ -57,15 +57,15 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "公園(夜) Lv1",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "変動(1000)",
+            position: "頭・腰と胴の間",
+            friend: ["ミツハニー"],
             others: "",
           },
           videos: [
             {
               name: "Herpingyoshi",
-              score: "-",
+              score: "",
               url: "https://www.youtube.com/watch?v=qPr37Rfxhc8",
             },
           ],
@@ -80,9 +80,9 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "変動(1000)",
+            position: "腰・下半身(と胴の間)",
+            friend: ["ミツハニー"],
             others: "",
           },
           videos: [

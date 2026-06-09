@@ -11,7 +11,7 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "500(固定)",
+            pose: "固定(500)",
             position: "首と首の間",
             friend: ["ケムッソ"],
             others: "",
@@ -19,7 +19,7 @@ export default {
           videos: [
             {
               name: "Herpingyoshi",
-              score: "-",
+              score: "",
               url: "https://www.youtube.com/watch?v=yzme8D8HMnQ",
             },
           ],
@@ -57,7 +57,7 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "抜け道(昼)",
-            pose: "",
+            pose: "変動(800)",
             position: "首と首の間",
             friend: ["ケムッソ"],
             others: "キュワワー、ドダイトス",
@@ -80,7 +80,7 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
+            pose: "変動(1000)",
             position: "首と首の間",
             friend: ["スバメ"],
             others: "ケムッソ、ビッパ",

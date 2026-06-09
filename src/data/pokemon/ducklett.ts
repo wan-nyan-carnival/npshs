@@ -11,15 +11,15 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "コアルヒー",
           },
           videos: [
             {
               name: "Herpingyoshi",
-              score: "-",
+              score: "",
               url: "https://www.youtube.com/watch?v=_9HIhAIJ85E",
             },
           ],
@@ -34,10 +34,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "胴と胴の間",
+            friend: ["コアルヒー"],
+            others: "スワンナ",
           },
           videos: [
             {
@@ -57,9 +57,9 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "抜け道(夜)",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "固定(950)",
+            position: "胴と胴の間",
+            friend: ["コアルヒー"],
             others: "",
           },
           videos: [
@@ -80,10 +80,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "固定(950)",
+            position: "頭(※)",
             friend: [""],
-            others: "",
+            others: "ビッパ、コイキング",
           },
           videos: [
             {

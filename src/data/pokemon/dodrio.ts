@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "スワンナ、コアルヒー",
           },
           videos: [
             {
@@ -34,10 +34,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "首、頭",
             friend: [""],
-            others: "",
+            others: "スワンナ、コアルヒー",
           },
           videos: [
             {
@@ -57,9 +57,9 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "変動(1000)",
+            position: "頭",
+            friend: ["モジャンボ"],
             others: "",
           },
           videos: [
@@ -80,10 +80,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "スワンナ、コアルヒー",
           },
           videos: [
             {

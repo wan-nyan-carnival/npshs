@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "抜け道(昼)",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "キノココ、ドダイトス",
           },
           videos: [
             {
@@ -34,10 +34,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "抜け道(昼)",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "頭・首",
             friend: [""],
-            others: "",
+            others: "キノココ、ドダイトス、ビビヨン",
           },
           videos: [
             {
@@ -62,10 +62,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "抜け道(昼)",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "キノココ、ドダイトス",
           },
           videos: [
             {
@@ -85,10 +85,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ヘラクロス、ピチュー、サルノリ、スワンナ、ビッパ、ドダイトス",
           },
           videos: [
             {

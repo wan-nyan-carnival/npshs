@@ -8,13 +8,33 @@ export default {
     stars: {
       1: [
         {
-          image: `/npshs/img/${no}/poke1.png`,
+          image: `/npshs/img/${no}/poke1a.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "固定(500)",
+            position: "胴と胴の間",
+            friend: ["スワンナ"],
+            others: "ビッパ、コアルヒー",
+          },
+          videos: [
+            {
+              name: "",
+              score: "",
+              url: "",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke1b.png`,
+          info: {
+            area: "公園(昼) Lv3",
+            pose: "変動(1000)",
+            position: "目",
             friend: [""],
-            others: "",
+            others: "スワンナ、コアルヒー、ビッパ、モジャンボ",
           },
           videos: [
             {
@@ -34,10 +54,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "首",
+            friend: ["コアルヒー"],
+            others: "ピチュー、サルノリ、ドダイトス、ニンフィア",
           },
           videos: [
             {
@@ -57,10 +77,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "スワンナ、コアルヒー、ビッパ、モジャンボ",
           },
           videos: [
             {
@@ -80,10 +100,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
+            pose: "変動(800)",
+            position: "目",
             friend: [""],
-            others: "",
+            others: "スワンナ、コイキング",
           },
           videos: [
             {

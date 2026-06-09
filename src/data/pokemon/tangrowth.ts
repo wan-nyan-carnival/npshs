@@ -57,7 +57,7 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "抜け道(夜)",
-            pose: "",
+            pose: "変動(1000)",
             position: "胴",
             friend: [""],
             others: "ビークイン、ミツハニー",

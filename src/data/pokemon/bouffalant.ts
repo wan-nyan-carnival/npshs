@@ -34,7 +34,7 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "500(固定)",
+            pose: "固定(500)",
             position: "首",
             friend: ["ビッパ"],
             others: "ピチュー、サルノリ、バッフロン、ビビヨン",

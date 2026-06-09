@@ -11,10 +11,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ヒバニー、ニンフィア、シェイミ、ピチュー、ドダイトス、ミツハニー、ピジョット、ドードリオ",
           },
           videos: [
             {
@@ -34,10 +34,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "胴と胴の間",
+            friend: ["ミツハニー"],
+            others: "シェイミ、ピチュー、ヒバニー、サルノリ、ニンフィア、ドダイトス",
           },
           videos: [
             {
@@ -57,10 +57,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: ["ビークイン"],
+            others: "ミツハニー",
           },
           videos: [
             {
@@ -80,10 +80,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "公園(夜) Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: ["ビークイン"],
+            others: "ミツハニー",
           },
           videos: [
             {

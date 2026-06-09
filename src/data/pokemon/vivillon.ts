@@ -11,7 +11,7 @@ export default {
           image: `/npshs/img/${no}/poke1a.png`,
           info: {
             area: "公園(昼) Lv3",
-            pose: "変動",
+            pose: "変動(800)",
             position: "頭",
             friend: [""],
             others: "サルノリ、ヒバニー、フラージェス、キュワワー、ビビヨン",
@@ -62,7 +62,7 @@ export default {
           image: `/npshs/img/${no}/poke2a.png`,
           info: {
             area: "抜け道(夜)",
-            pose: "変動",
+            pose: "変動(800)",
             position: "頭",
             friend: [""],
             others: "ピカチュウ、イーブイ、コイキング、ビークイン、ミツハニー、タマゲタケ",
@@ -87,7 +87,7 @@ export default {
           image: `/npshs/img/${no}/poke2b.png`,
           info: {
             area: "リバー(夜) Lv2",
-            pose: "変動",
+            pose: "変動(800)",
             position: "頭",
             friend: [""],
             others: "ウパー、ヌオー、ラグラージ",
@@ -135,7 +135,7 @@ export default {
           image: `/npshs/img/${no}/poke3b.png`,
           info: {
             area: "海上(夕) Lv2",
-            pose: "変動",
+            pose: "変動(1000)",
             position: "頭",
             friend: [""],
             others: "なし",
@@ -163,7 +163,7 @@ export default {
           image: `/npshs/img/${no}/poke4a.png`,
           info: {
             area: "ベースキャンプ(入口)",
-            pose: "変動",
+            pose: "変動(800)",
             position: "頭",
             friend: [""],
             others: "ウソッキー、ピカチュウ、ヤブクロン、コラッタ、デデンネ",

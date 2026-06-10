@@ -5,6 +5,7 @@ export default {
     name: "ヒバニー",
     en: "Scorbunny",
     no,
+    groups: ["公園", "砂漠", "抜け道", ],
     stars: {
       1: [
         {

@@ -5,6 +5,7 @@ export default {
     name: "フラージェス",
     en: "Florges",
     no,
+    groups: ["公園", ],
     stars: {
       1: [
         {

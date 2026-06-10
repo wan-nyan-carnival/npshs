@@ -5,6 +5,7 @@ export default {
     name: "ウソッキー",
     en:"Sudowoodo",
     no,
+    groups: ["ベースキャンプ", ],
     stars: {
       1: [
         {

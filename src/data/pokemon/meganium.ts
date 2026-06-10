@@ -5,6 +5,7 @@ export default {
     name: "メガニウム",
     en: "Meganium",
     no,
+    groups: ["公園", ],
     stars: {
       1: [
         {

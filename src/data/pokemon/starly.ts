@@ -5,6 +5,7 @@ export default {
     name: "ムックル",
     en:"Starly",
     no,
+    groups: ["ベースキャンプ", ],
     stars: {
       1: [
         {

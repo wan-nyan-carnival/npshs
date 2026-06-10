@@ -5,6 +5,7 @@ export default {
     name: "アブリー",
     en:"Cutiefly",
     no,
+    groups: ["ベースキャンプ", ],
     stars: {
       1: [
         {

@@ -5,6 +5,7 @@ export default {
     name: "サルノリ",
     en: "Grookey",
     no,
+    groups: ["公園", ],
     stars: {
       1: [
         {

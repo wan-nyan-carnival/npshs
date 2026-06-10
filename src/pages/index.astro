@@ -20,7 +20,12 @@ function groupByNo(list, groups) {
   return result;
 }
 
-const grouped = groupByNo(pokemonList, pokemonGroups);
+const grouped = pokemonGroups.map(group => ({
+  label: group.label,
+  items: pokemonList.filter(
+    p => p.groups?.includes(group.label)
+  )
+}));
 ---
 
 <Layout>

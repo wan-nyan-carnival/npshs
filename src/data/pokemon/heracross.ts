@@ -5,6 +5,7 @@ export default {
     name: "ヘラクロス",
     en: "Heracross",
     no,
+    groups: ["公園", ],
     stars: {
       1: [
         {

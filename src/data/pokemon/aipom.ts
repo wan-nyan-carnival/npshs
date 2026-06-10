@@ -5,6 +5,7 @@ export default {
     name: "エイパム",
     en:"Aipom",
     no,
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

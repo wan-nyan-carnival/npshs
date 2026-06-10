@@ -5,6 +5,7 @@ export default {
     name: "ビッパ",
     en: "Bidoof",
     no,
+    groups: ["公園", "抜け道", ],
     stars: {
       1: [
         {

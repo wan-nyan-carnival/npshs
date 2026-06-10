@@ -5,7 +5,7 @@ export default {
     name: "コイキング",
     en: "Magikarp",
     no,
-    stars: {
+    groups: ["公園", "ジャングル", "砂漠", "ビーチ", "海上", "海中", "樹海", "雪原", "洞窟", "遺跡", "抜け道", "リバー", "荒野", ],    stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,

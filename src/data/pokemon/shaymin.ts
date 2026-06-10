@@ -5,6 +5,7 @@ export default {
     name: "シェイミ",
     en: "Shaymin",
     no,
+    groups: ["公園", ],
     stars: {
       1: [
         {

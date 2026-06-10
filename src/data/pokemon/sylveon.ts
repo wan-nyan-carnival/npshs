@@ -5,6 +5,7 @@ export default {
     name: "ニンフィア",
     en: "Sylveon",
     no,
+    groups: ["公園", "抜け道", ],
     stars: {
       1: [
         {

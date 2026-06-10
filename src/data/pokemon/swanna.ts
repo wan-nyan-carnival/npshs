@@ -5,6 +5,7 @@ export default {
     name: "スワンナ",
     en: "Swanna",
     no,
+    groups: ["公園", ],
     stars: {
       1: [
         {

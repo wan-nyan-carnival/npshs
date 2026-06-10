@@ -4,6 +4,7 @@ export default {
     id: "ducklett",
     name: "コアルヒー",
     en: "Ducklett",
+    groups: ["公園", ],
     no,
     stars: {
       1: [

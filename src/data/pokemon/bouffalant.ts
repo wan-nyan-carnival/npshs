@@ -5,6 +5,7 @@ export default {
     name: "バッフロン",
     en: "Bouffalant",
     no,
+    groups: ["公園", ],
     stars: {
       1: [
         {

@@ -5,6 +5,7 @@ export default {
     name: "カイロス",
     en: "Pinsir",
     no,
+    groups: ["公園", "砂漠", "抜け道", ],
     stars: {
       1: [
         {

@@ -5,6 +5,7 @@ export default {
     name: "デデンネ",
     en:"Dedenne",
     no,
+    groups: ["ベースキャンプ", ],
     stars: {
       1: [
         {

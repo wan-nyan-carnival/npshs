@@ -1,26 +1,26 @@
-const no = 22;
+const no = 31;
 
 export default {
-    id: "comfey",
-    name: "キュワワー",
-    en: "Comfey",
+    id: "cutiefly",
+    name: "アブリー",
+    en:"Cutiefly",
     no,
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "公園(昼) Lv3",
+            area: "キャンプ(研究所)",
             pose: "変動(1000)",
-            position: "頭",
+            position: "胴",
             friend: [""],
-            others: "キュワワー",
+            others: "アブリー、イーブイ、ムーランド、ニャース",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5290",
-              url: "https://www.youtube.com/watch?v=NKEqxNQ1cmU",
+              name: "Whom Snaps",
+              score: "5545",
+              url: "https://www.youtube.com/watch?v=Uy728ne9Lzg",
             },
           ],
           steps: [
@@ -33,17 +33,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "抜け道(昼)",
+            area: "キャンプ(研究所)",
             pose: "変動(1000)",
-            position: "頭と頭の間",
-            friend: ["ピチュー"],
-            others: "ヒバニー、ドダイトス",
+            position: "胴",
+            friend: [""],
+            others: "アブリー、イーブイ、ムーランド、ニャース",
           },
           videos: [
             {
-              name: "をる",
-              score: "",
-              url: "https://x.com/_woru_/status/1475814872759767043",
+              name: "Whom Snaps",
+              score: "5530",
+              url: "https://www.youtube.com/watch?v=DqBmCzWe_MY",
             },
           ],
           steps: [
@@ -56,22 +56,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "公園(昼) Lv3",
+            area: "キャンプ(入口)",
             pose: "変動(1000)",
-            position: "中央の赤い花",
+            position: "胴",
             friend: [""],
-            others: "キュワワー、バッフロン、ビビヨン",
+            others: "ムックル",
           },
           videos: [
             {
-              name: "Whom Snaps",
-              score: "5454",
-              url: "https://www.youtube.com/watch?v=KEWJVProWDw",
-            },
-            {
-              name: "Quentin",
-              score: "5419",
-              url: "https://www.youtube.com/watch?v=VOJ4scVcbzI",
+              name: "黒歌鳥",
+              score: "5018",
+              url: "https://www.youtube.com/watch?v=Y4XhSQCzPnw",
             },
           ],
           steps: [
@@ -84,17 +79,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "公園(昼) Lv3",
-            pose: "固定(750)",
-            position: "中央の赤い花",
+            area: "キャンプ(研究所)",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "サルノリ、キュワワー",
+            others: "アブリー、イーブイ、ムーランド、ニャース",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5134",
-              url: "https://www.youtube.com/watch?v=6vjxO4C0IZE",
+              score: "5603",
+              url: "https://www.youtube.com/watch?v=P8jmUBI8ArY",
             },
           ],
           steps: [

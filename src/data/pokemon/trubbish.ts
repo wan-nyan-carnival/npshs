@@ -1,26 +1,26 @@
-const no = 20;
+const no = 38;
 
 export default {
-    id: "magikarp",
-    name: "コイキング",
-    en: "Magikarp",
+    id: "trubbish",
+    name: "ヤブクロン",
+    en:"Trubbish",
     no,
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "抜け道(夜)",
-            pose: "変動(1000)",
+            area: "キャンプ(入口)",
+            pose: "変動(800)",
             position: "胴",
             friend: [""],
-            others: "ビークイン、ミツハニー、ドダイトス",
+            others: "コラッタ、アブリー",
           },
           videos: [
             {
               name: "Quentin",
-              score: "5245",
-              url: "https://www.youtube.com/watch?v=anXL5JOgF-k",
+              score: "4984",
+              url: "https://www.youtube.com/watch?v=KP33AQamLxg",
             },
           ],
           steps: [
@@ -33,17 +33,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "ジャングル(昼) Lv3",
-            pose: "変動(800)",
+            area: "キャンプ(入口)",
+            pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "アゲハント、フシギバナ",
+            others: "アブリー",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5461",
-              url: "https://www.youtube.com/watch?v=npgyhWk3ZPE",
+              name: "Pokemario6456",
+              score: "5117",
+              url: "https://www.youtube.com/watch?v=kjHu-lYxzug",
             },
           ],
           steps: [
@@ -56,17 +56,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "リバー(昼) Lv1",
+            area: "キャンプ(研究所)",
             pose: "変動(1000)",
-            position: "胴と胴の間",
-            friend: ["ドデカバシ"],
-            others: "コダック？",
+            position: "胴と首の間",
+            friend: ["イーブイ"],
+            others: "アブリー",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5466",
-              url: "https://www.youtube.com/watch?v=Le4hCF4Vx50",
+              name: "Pokemario6456",
+              score: "5245",
+              url: "https://www.youtube.com/watch?v=qPrtbACOyIM",
             },
           ],
           steps: [
@@ -79,17 +79,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "公園(昼) Lv3",
-            pose: "固定(950)",
-            position: "胴(※)",
-            friend: ["ピジョット"],
-            others: "ビッパ",
+            area: "キャンプ(入口)",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: ["コラッタ"],
+            others: "ウソッキー",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5649",
-              url: "https://www.youtube.com/watch?v=M4gZ1_7l1xU",
+              score: "5563",
+              url: "https://www.youtube.com/watch?v=fNcuK8Ch9lU",
             },
           ],
           steps: [

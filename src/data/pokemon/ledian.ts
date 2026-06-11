@@ -1,27 +1,27 @@
-const no = 41;
+const no = 57;
 
 export default {
-    id: "aipom",
-    name: "エイパム",
-    en: "Aipom",
+    id: "ledian",
+    name: "レディアン",
+    en: "Ledian",
     no,
-    groups: ["ジャングル", "リバー", ],
+    groups: ["ジャングル", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1a.png`,
           info: {
-            area: "ジャングル(昼) Lv3",
-            pose: "変動(1000)",
-            position: "胴",
-            friend: [""],
-            others: "なし",
+            area: "リバー(夜) Lv2",
+            pose: "固定(500)",
+            position: "首",
+            friend: ["レディアン"],
+            others: "アゲハント、ドデカバシ、コイキング",
           },
           videos: [
             {
               name: "Quentin",
-              score: "5194",
-              url: "https://www.youtube.com/watch?v=lF0CvX710ag",
+              score: "5524",
+              url: "https://www.youtube.com/watch?v=apPinNlVA_k",
             },
           ],
           steps: [
@@ -31,17 +31,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1b.png`,
           info: {
-            area: "リバー(夜) Lv2",
+            area: "ジャングル(夜) Lv2",
             pose: "変動(1000)",
-            position: "胴",
+            position: "頭",
             friend: [""],
-            others: "エイパム",
+            others: "レディアン、ネマシュ",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5184",
-              url: "https://www.youtube.com/watch?v=i2uvU_x23E8",
+              name: "Whom Snaps",
+              score: "5574",
+              url: "https://www.youtube.com/watch?v=YybwQrIB11k",
             },
           ],
           steps: [
@@ -54,17 +54,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "リバー(夜) Lv2",
+            area: "ジャングル(夜) Lv2",
             pose: "変動(1000)",
-            position: "胴",
-            friend: ["エイパム"],
-            others: "",
+            position: "頭",
+            friend: [""],
+            others: "レディアン、ネマシュ",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5804",
-              url: "https://www.youtube.com/watch?v=1YmtY6dst8s",
+              name: "Whom Snaps",
+              score: "5479",
+              url: "https://www.youtube.com/watch?v=mGwbHbNfrWM",
             },
           ],
           steps: [
@@ -77,17 +77,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "リバー(夜) Lv2",
+            area: "ジャングル(夜) Lv2",
             pose: "変動(1000)",
-            position: "胴",
-            friend: ["エイパム"],
-            others: "",
+            position: "頭",
+            friend: [""],
+            others: "レディアン、ネマシュ",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5860",
-              url: "https://www.youtube.com/watch?v=DwcLjwZtL8g",
+              name: "Whom Snaps",
+              score: "5536",
+              url: "https://www.youtube.com/watch?v=U4tXRC8htwk",
             },
           ],
           steps: [
@@ -101,16 +101,16 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "リバー(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
-            friend: ["エイパム"],
+            pose: "変動(800)",
+            position: "首と首の間",
+            friend: ["レディアン"],
             others: "",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5904",
-              url: "https://www.youtube.com/watch?v=ZgajRFNo6Bc",
+              name: "黒歌鳥",
+              score: "5751",
+              url: "https://www.youtube.com/watch?v=eYaZf_DABpY",
             },
           ],
           steps: [

@@ -212,7 +212,10 @@ h3 {
 .vlink a:hover{
     opacity:0.7;
 }
+.steps {
+}
 .steps p {
+    margin-bottom:0.8em;
     white-space: pre-line; // \nで改行
 }
 

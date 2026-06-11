@@ -1,27 +1,27 @@
-const no = 20;
+const no = 45;
 
 export default {
-    id: "magikarp",
-    name: "コイキング",
-    en: "Magikarp",
+    id: "arbok",
+    name: "アーボック",
+    en: "Arbok",
     no,
-    groups: ["公園", "ジャングル", "砂漠", "ビーチ", "海上", "海中", "樹海", "雪原", "洞窟", "遺跡", "抜け道", "リバー", "荒野", ],
+    groups: ["ジャングル", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "抜け道(夜)",
+            area: "ジャングル(夜) Lv2",
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "ビークイン、ミツハニー、ドダイトス",
+            others: "レディアン",
           },
           videos: [
             {
               name: "Quentin",
-              score: "5245",
-              url: "https://www.youtube.com/watch?v=anXL5JOgF-k",
+              score: "5352",
+              url: "https://www.youtube.com/watch?v=HlYc7D29tOU",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "ジャングル(昼) Lv3",
-            pose: "変動(800)",
+            area: "ジャングル(夜) Lv2",
+            pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "アゲハント、フシギバナ",
+            others: "レディアン",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5461",
-              url: "https://www.youtube.com/watch?v=npgyhWk3ZPE",
+              score: "5477",
+              url: "https://www.youtube.com/watch?v=iHoxKZSrNeo",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "リバー(昼) Lv1",
+            area: "リバー(昼) Lv3",
             pose: "変動(1000)",
-            position: "胴と胴の間",
-            friend: ["ドデカバシ"],
-            others: "コダック？",
+            position: "胴と頭の間",
+            friend: ["コダック"],
+            others: "",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5466",
-              url: "https://www.youtube.com/watch?v=Le4hCF4Vx50",
+              score: "5414",
+              url: "https://www.youtube.com/watch?v=Kt6-S7iQEgE",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "公園(昼) Lv3",
-            pose: "固定(950)",
-            position: "胴(※)",
-            friend: ["ピジョット"],
-            others: "ビッパ",
+            area: "ジャングル(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴と頭の間",
+            friend: ["フシギバナ"],
+            others: "ミュウ、アゲハント",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5649",
-              url: "https://www.youtube.com/watch?v=M4gZ1_7l1xU",
+              score: "5657",
+              url: "https://www.youtube.com/watch?v=7JACLhXGhxM",
             },
           ],
           steps: [

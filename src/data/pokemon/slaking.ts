@@ -1,27 +1,32 @@
-const no = 20;
+const no = 51;
 
 export default {
-    id: "magikarp",
-    name: "コイキング",
-    en: "Magikarp",
+    id: "slaking",
+    name: "ケッキング",
+    en: "Slaking",
     no,
-    groups: ["公園", "ジャングル", "砂漠", "ビーチ", "海上", "海中", "樹海", "雪原", "洞窟", "遺跡", "抜け道", "リバー", "荒野", ],
+    groups: ["ジャングル", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "抜け道(夜)",
-            pose: "変動(1000)",
+            area: "ジャングル(夜) Lv2",
+            pose: "500(固定)",
             position: "胴",
             friend: [""],
-            others: "ビークイン、ミツハニー、ドダイトス",
+            others: "ドデカバシ",
           },
           videos: [
             {
               name: "Quentin",
-              score: "5245",
-              url: "https://www.youtube.com/watch?v=anXL5JOgF-k",
+              score: "5110",
+              url: "https://www.youtube.com/watch?v=OCxPDaPNp3U",
+            },
+            {
+              name: "黒歌鳥",
+              score: "5090",
+              url: "https://www.youtube.com/watch?v=sKPcFHPy25k",
             },
           ],
           steps: [
@@ -34,17 +39,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "ジャングル(昼) Lv3",
-            pose: "変動(800)",
+            area: "ジャングル(夜) Lv2",
+            pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "アゲハント、フシギバナ",
+            others: "コイキング、ヌオー、ウパー",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5461",
-              url: "https://www.youtube.com/watch?v=npgyhWk3ZPE",
+              score: "5260",
+              url: "https://www.youtube.com/watch?v=u6kqLf2TcGI",
             },
           ],
           steps: [
@@ -57,17 +62,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "リバー(昼) Lv1",
-            pose: "変動(1000)",
-            position: "胴と胴の間",
-            friend: ["ドデカバシ"],
-            others: "コダック？",
+            area: "ジャングル(夜) Lv2",
+            pose: "変動(800)",
+            position: "胴",
+            friend: [""],
+            others: "ミュウ、ラグラージ",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5466",
-              url: "https://www.youtube.com/watch?v=Le4hCF4Vx50",
+              name: "Quentin",
+              score: "5140",
+              url: "https://www.youtube.com/watch?v=n78qiG-5q1E",
             },
           ],
           steps: [
@@ -80,17 +85,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "公園(昼) Lv3",
-            pose: "固定(950)",
-            position: "胴(※)",
-            friend: ["ピジョット"],
-            others: "ビッパ",
+            area: "ジャングル(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: [""],
+            others: "コイキング、ヌオー、ウパー",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5649",
-              url: "https://www.youtube.com/watch?v=M4gZ1_7l1xU",
+              score: "5562",
+              url: "https://www.youtube.com/watch?v=CxtzLEThlK8",
             },
           ],
           steps: [

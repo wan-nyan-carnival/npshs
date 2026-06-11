@@ -1,27 +1,27 @@
-const no = 41;
+const no = 53;
 
 export default {
-    id: "aipom",
-    name: "エイパム",
-    en: "Aipom",
+    id: "liepard",
+    name: "レパルダス",
+    en: "Liepard",
     no,
-    groups: ["ジャングル", "リバー", ],
+    groups: ["ジャングル", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1a.png`,
           info: {
             area: "ジャングル(昼) Lv3",
-            pose: "変動(1000)",
+            pose: "固定(950)",
             position: "胴",
             friend: [""],
-            others: "なし",
+            others: "メッソン、アゲハント",
           },
           videos: [
             {
               name: "Quentin",
-              score: "5194",
-              url: "https://www.youtube.com/watch?v=lF0CvX710ag",
+              score: "5422",
+              url: "https://www.youtube.com/watch?v=qH4u9XIVsLU",
             },
           ],
           steps: [
@@ -31,17 +31,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1b.png`,
           info: {
-            area: "リバー(夜) Lv2",
-            pose: "変動(1000)",
+            area: "ジャングル(夜) Lv2",
+            pose: "固定(500)",
             position: "胴",
             friend: [""],
-            others: "エイパム",
+            others: "ネマシュ、ツツケラ、ヌオー",
           },
           videos: [
             {
               name: "黒歌鳥",
-              score: "5184",
-              url: "https://www.youtube.com/watch?v=i2uvU_x23E8",
+              score: "5339",
+              url: "https://www.youtube.com/watch?v=kY8LGjnnWF8",
             },
           ],
           steps: [
@@ -54,17 +54,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "リバー(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
-            friend: ["エイパム"],
+            area: "ジャングル(夜) Lv2",
+            pose: "",
+            position: "",
+            friend: [""],
             others: "",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5804",
-              url: "https://www.youtube.com/watch?v=1YmtY6dst8s",
+              name: "黒歌鳥",
+              score: "5354",
+              url: "https://www.youtube.com/watch?v=figk7zql78w",
             },
           ],
           steps: [
@@ -77,17 +77,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "リバー(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
-            friend: ["エイパム"],
+            area: "ジャングル(昼) Lv3",
+            pose: "",
+            position: "",
+            friend: [""],
             others: "",
           },
           videos: [
             {
               name: "Quentin",
-              score: "5860",
-              url: "https://www.youtube.com/watch?v=DwcLjwZtL8g",
+              score: "5586",
+              url: "https://www.youtube.com/watch?v=RsEJS23sik8",
             },
           ],
           steps: [
@@ -100,17 +100,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "リバー(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
-            friend: ["エイパム"],
+            area: "ジャングル(夜) Lv1",
+            pose: "",
+            position: "",
+            friend: [""],
             others: "",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5904",
-              url: "https://www.youtube.com/watch?v=ZgajRFNo6Bc",
+              name: "黒歌鳥",
+              score: "5633",
+              url: "https://www.youtube.com/watch?v=vdbY-e9BeQE",
             },
           ],
           steps: [

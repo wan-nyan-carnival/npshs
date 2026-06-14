@@ -4,5 +4,5 @@ export const pokemonGroups = [
   { label: "ジャングル" },
   { label: "樹海" },
   { label: "ビーチ" },
-  { label: "海中" },
+  { label: "海上" },
 ];

@@ -12,10 +12,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "海中 Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "グソクムシャ、ランターン、スターミー",
           },
           videos: [
             {
@@ -35,10 +35,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "海中 Lv3",
-            pose: "",
-            position: "",
+            pose: "固定(950)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "グソクムシャ、スターミー",
           },
           videos: [
             {
@@ -58,10 +58,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "海中 Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "スターミー、ランターン",
           },
           videos: [
             {
@@ -81,10 +81,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "海中 Lv3",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "頭",
+            friend: ["グソクムシャ"],
+            others: "ランターン",
           },
           videos: [
             {

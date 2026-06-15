@@ -1,27 +1,27 @@
-const no = 121;
+const no = 128;
 
 export default {
-    id: "lugia",
-    name: "ルギア",
-    en: "Lugia",
+    id: "kangaskhan",
+    name: "ガルーラ",
+    en: "Kangaskhan",
     no,
-    groups: ["海中", ],
+    groups: ["砂漠", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "海中 Lv3",
-            pose: "変動(2000)",
-            position: "首",
+            area: "",
+            pose: "",
+            position: "",
             friend: [""],
-            others: "コイキング",
+            others: "",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5985",
-              url: "https://www.youtube.com/watch?v=55us5Zpe9uw",
+              name: "",
+              score: "",
+              url: "",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "海中 Lv3",
-            pose: "固定(1500)",
-            position: "胴",
+            area: "",
+            pose: "",
+            position: "",
             friend: [""],
-            others: "グソクムシャ、スターミー、ホエルコ",
+            others: "",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5829",
-              url: "https://www.youtube.com/watch?v=rkKIIhTDLv4",
+              name: "",
+              score: "",
+              url: "",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "海中 Lv3",
-            pose: "変動(2000)",
-            position: "胴",
+            area: "",
+            pose: "",
+            position: "",
             friend: [""],
-            others: "チョンチー、コイキング",
+            others: "",
           },
           videos: [
             {
-              name: "Ashino2",
-              score: "6405",
-              url: "https://www.youtube.com/watch?v=AVAiETco560",
+              name: "",
+              score: "",
+              url: "",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "海中 Lv3",
-            pose: "変動(2000)",
-            position: "胴",
+            area: "",
+            pose: "",
+            position: "",
             friend: [""],
-            others: "グソクムシャ",
+            others: "",
           },
           videos: [
             {
-              name: "tripledubz",
-              score: "5853",
-              url: "https://www.twitch.tv/videos/2087420698",
+              name: "",
+              score: "",
+              url: "",
             },
           ],
           steps: [

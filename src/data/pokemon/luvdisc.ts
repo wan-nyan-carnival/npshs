@@ -12,10 +12,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "海中 Lv3",
-            pose: "",
-            position: "",
+            pose: "固定(950)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ユレイドル、ネオラント",
           },
           videos: [
             {
@@ -35,10 +35,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "海中 Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ママンボウ、マンタイン",
           },
           videos: [
             {
@@ -58,10 +58,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "海中 Lv3",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ラブカス、ママンボウ、サニーゴ、マンタイン",
           },
           videos: [
             {
@@ -81,9 +81,9 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "海中 Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "変動(800)",
+            position: "胴",
+            friend: ["ラブカス"],
             others: "",
           },
           videos: [

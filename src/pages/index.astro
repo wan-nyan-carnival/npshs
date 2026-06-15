@@ -21,6 +21,7 @@ function groupByNo(list, groups) {
 }
 
 const grouped = pokemonGroups.map(group => ({
+  id: group.id,
   label: group.label,
   items: pokemonList.filter(
     p => p.groups?.includes(group.label)
@@ -32,7 +33,7 @@ const grouped = pokemonGroups.map(group => ({
   <div id="main-box">
     {grouped.map(group => (
       <>
-        <h2>{group.label}</h2>
+        <h2 id={group.id}>{group.label}</h2>
 
         <div class="pokelist">
           {group.items.map(p => (

@@ -12,10 +12,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "海中(イルミナ)",
-            pose: "",
-            position: "",
+            pose: "変動(2000)",
+            position: "尾",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
@@ -35,10 +35,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "海中(イルミナ)",
-            pose: "",
-            position: "",
+            pose: "変動(1800)",
+            position: "尾",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
@@ -58,10 +58,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "海中(イルミナ)",
-            pose: "",
-            position: "",
+            pose: "変動(2000)",
+            position: "尾",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
@@ -81,10 +81,10 @@ export default {
           image: `/npshs/img/${no}/poke4a.png`,
           info: {
             area: "海中(イルミナ)",
-            pose: "",
-            position: "",
+            pose: "固定(1950)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
@@ -101,8 +101,8 @@ export default {
           image: `/npshs/img/${no}/poke4b.png`,
           info: {
             area: "海中(イルミナ)",
-            pose: "",
-            position: "",
+            pose: "固定(1950)",
+            position: "尾",
             friend: [""],
             others: "",
           },

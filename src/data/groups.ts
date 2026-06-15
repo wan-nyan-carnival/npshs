@@ -1,8 +1,9 @@
 export const pokemonGroups = [
-  { label: "公園" },
-  { label: "ベースキャンプ" },
-  { label: "ジャングル" },
-  { label: "樹海" },
-  { label: "ビーチ" },
-  { label: "海上" },
+  { id: "park", label: "公園" },
+  { id: "camp", label: "ベースキャンプ" },
+  { id: "jungle", label: "ジャングル" },
+  { id: "forest", label: "樹海" },
+  { id: "beach", label: "ビーチ" },
+  { id: "reef", label: "海上" },
+  { id: "undersea", label: "海中" },
 ];

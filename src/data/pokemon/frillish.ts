@@ -12,10 +12,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "海中 Lv2",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "プルリル、ドククラゲ、グソクムシャ",
           },
           videos: [
             {
@@ -35,10 +35,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "海中 Lv2",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "プルリル",
           },
           videos: [
             {
@@ -58,9 +58,9 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "海中 Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "変動(1000)",
+            position: "胴",
+            friend: ["プルリル"],
             others: "",
           },
           videos: [
@@ -81,9 +81,9 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "海中 Lv3",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "固定(750)",
+            position: "胴",
+            friend: ["ママンボウ"],
             others: "",
           },
           videos: [

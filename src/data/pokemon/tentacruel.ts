@@ -12,10 +12,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "海中 Lv2",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "下部",
             friend: [""],
-            others: "",
+            others: "チョンチー",
           },
           videos: [
             {
@@ -35,10 +35,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "海中 Lv2",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "チョンチー",
           },
           videos: [
             {
@@ -58,10 +58,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "海中 Lv2",
-            pose: "",
-            position: "",
+            pose: "変動(800)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "チョンチー",
           },
           videos: [
             {
@@ -81,10 +81,10 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "海中 Lv2",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            pose: "変動(1000)",
+            position: "頭と頭の間",
+            friend: ["プルリル"],
+            others: "グソクムシャ",
           },
           videos: [
             {

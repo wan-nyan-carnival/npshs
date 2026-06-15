@@ -12,10 +12,10 @@ export default {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
             area: "海中 Lv1",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
@@ -35,10 +35,10 @@ export default {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
             area: "海中 Lv1",
-            pose: "",
-            position: "",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
@@ -58,10 +58,10 @@ export default {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
             area: "海中 Lv1",
-            pose: "",
-            position: "",
+            pose: "変動(800)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ハリーセン",
           },
           videos: [
             {
@@ -81,9 +81,9 @@ export default {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
             area: "海中 Lv3",
-            pose: "",
-            position: "",
-            friend: [""],
+            pose: "変動(1000)",
+            position: "胴と胴の間",
+            friend: ["ブロスター"],
             others: "",
           },
           videos: [

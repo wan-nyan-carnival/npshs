@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(夜) Lv2",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5072",
+              url: "https://www.youtube.com/watch?v=IM3IkrlfKz0",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(夜) Lv2",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5307",
+              url: "https://www.youtube.com/watch?v=y7Xymqb87ZE",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(夜) Lv2",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "コイキング、ガルーラ、メテオラ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "4875",
+              url: "https://www.youtube.com/watch?v=AR0PzPkqjP0",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(800)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "ナックラー、ヒバニー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Herpingyoshi",
+              score: "4615",
+              url: "https://www.youtube.com/watch?v=12zVmsrTIvA",
             },
           ],
           steps: [

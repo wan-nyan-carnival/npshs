@@ -5,23 +5,23 @@ export default {
     name: "サンド",
     en: "Sandshrew",
     no,
-    groups: ["砂漠", ],
+    groups: ["砂漠", "荒野" ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "荒野(夜) Lv2",
+            pose: "変動(800)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "グライオン、マルノーム、ペンドラー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "5240",
+              url: "https://www.youtube.com/watch?v=x5OQCmjv7xU",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "荒野(夜) Lv2",
+            pose: "変動(800)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "グライオン、マルノーム、ペンドラー、ビビヨン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5306",
+              url: "https://www.youtube.com/watch?v=44pgEA3M7nA",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "荒野(夜) Lv2",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "グライオン、マルノーム、ペンドラー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "5332",
+              url: "https://www.youtube.com/watch?v=eiCCqgkMZnM",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "荒野(夜) Lv2",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ディグダ、コイキング、バンギラス、ビビヨン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5393",
+              url: "https://www.youtube.com/watch?v=o2xNqK9QByI",
             },
           ],
           steps: [

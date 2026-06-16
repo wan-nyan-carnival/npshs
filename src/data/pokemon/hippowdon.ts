@@ -9,19 +9,39 @@ export default {
     stars: {
       1: [
         {
-          image: `/npshs/img/${no}/poke1.png`,
+          image: `/npshs/img/${no}/poke1a.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(800)",
+            position: "頭・胴",
+            friend: [""],
+            others: "カバルドン、フライゴン",
+          },
+          videos: [
+            {
+              name: "黒歌鳥",
+              score: "5615",
+              url: "https://www.youtube.com/watch?v=ACJElCmwK7c",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke1b.png`,
+          info: {
+            area: "砂漠(昼) Lv3",
+            pose: "変動(800)",
+            position: "首",
             friend: [""],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Pokemario6456",
+              score: "5151",
+              url: "https://www.youtube.com/watch?v=vg-xvQSvbRA",
             },
           ],
           steps: [
@@ -32,19 +52,39 @@ export default {
 
       2: [
         {
-          image: `/npshs/img/${no}/poke2.png`,
+          image: `/npshs/img/${no}/poke2a.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "カバルドン、フライゴン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5485",
+              url: "https://www.youtube.com/watch?v=xdxOrhsbUlQ",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke2b.png`,
+          info: {
+            area: "砂漠(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: [""],
+            others: "なし",
+          },
+          videos: [
+            {
+              name: "Pokemario6456",
+              score: "5303",
+              url: "https://www.youtube.com/watch?v=jUxxFVYtdcQ",
             },
           ],
           steps: [
@@ -55,19 +95,39 @@ export default {
 
       3: [
         {
-          image: `/npshs/img/${no}/poke3.png`,
+          image: `/npshs/img/${no}/poke3a.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
+            others: "カバルドン、フライゴン",
+          },
+          videos: [
+            {
+              name: "黒歌鳥",
+              score: "5615",
+              url: "https://www.youtube.com/watch?v=ACJElCmwK7c",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke3b.png`,
+          info: {
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭",
+            friend: ["ルガルガン"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5493",
+              url: "https://www.youtube.com/watch?v=OG3V7VcTwmY",
             },
           ],
           steps: [
@@ -80,17 +140,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(800)",
+            position: "頭",
+            friend: ["アチャモ"],
+            others: "カバルドン、バルジーナ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5292",
+              url: "https://www.youtube.com/watch?v=EkIjCYOgdg0",
             },
           ],
           steps: [

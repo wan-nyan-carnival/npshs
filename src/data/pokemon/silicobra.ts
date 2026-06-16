@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "バルジーナ、バンギラス、コイキング",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "5410",
+              url: "https://www.youtube.com/watch?v=znjw9OyPaJ0",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "カバルドン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5615",
+              url: "https://www.youtube.com/watch?v=LgsVde4gG0I",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "腹",
             friend: [""],
-            others: "",
+            others: "カバルドン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5555",
+              url: "https://www.youtube.com/watch?v=Te3r0pyUJGw",
             },
           ],
           steps: [
@@ -78,19 +78,39 @@ export default {
 
       4: [
         {
-          image: `/npshs/img/${no}/poke4.png`,
+          image: `/npshs/img/${no}/poke4a.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "砂漠(昼) Lv3",
+            pose: "変動(800)",
+            position: "胴",
+            friend: ["ビビヨン"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "tripledubz",
+              score: "5110",
+              url: "https://www.twitch.tv/videos/2403599490",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke4b.png`,
+          info: {
+            area: "砂漠(夜) Lv2",
+            pose: "変動(800)",
+            position: "頭",
+            friend: ["ルガルガン"],
+            others: "カバルドン",
+          },
+          videos: [
+            {
+              name: "黒歌鳥",
+              score: "4972",
+              url: "https://www.youtube.com/watch?v=YOhzHFUymBk",
             },
           ],
           steps: [

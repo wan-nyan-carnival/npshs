@@ -9,19 +9,39 @@ export default {
     stars: {
       1: [
         {
-          image: `/npshs/img/${no}/poke1.png`,
+          image: `/npshs/img/${no}/poke1a.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "荒野(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ポカブ、アチャモ、コリンク",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5309",
+              url: "https://www.youtube.com/watch?v=HXg5ES_RvPA",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke1b.png`,
+          info: {
+            area: "荒野(夜) Lv2",
+            pose: "固定(500)",
+            position: "胴",
+            friend: [""],
+            others: "イワンコ、ポカブ、アチャモ、コリンク、ビビヨン",
+          },
+          videos: [
+            {
+              name: "Whom Snaps",
+              score: "5215",
+              url: "https://www.youtube.com/watch?v=J7sg0BfW5XQ",
             },
           ],
           steps: [
@@ -34,17 +54,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "アチャモ、バンギラス、コイキング、カバルドン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "5500",
+              url: "https://www.youtube.com/watch?v=mmcH-xA9E5Q",
             },
           ],
           steps: [
@@ -57,17 +77,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "荒野(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴と胴の間",
+            friend: ["ガルーラ"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5688",
+              url: "https://www.youtube.com/watch?v=X_wlYmE6DlM",
             },
           ],
           steps: [
@@ -80,17 +100,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "固定(750)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "アチャモ、バンギラス",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "5335",
+              url: "https://www.youtube.com/watch?v=_hnA7y0HTe0",
             },
           ],
           steps: [

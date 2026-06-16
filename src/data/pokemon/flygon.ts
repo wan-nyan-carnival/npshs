@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ルガルガン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Pokemario6456",
+              score: "5491",
+              url: "https://www.youtube.com/watch?v=JjKUCnTLZN4",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ルガルガン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Pokemario6456",
+              score: "5459",
+              url: "https://www.youtube.com/watch?v=JjKUCnTLZN4&t=123s",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ルガルガン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Pokemario6456",
+              score: "5517",
+              url: "https://www.youtube.com/watch?v=JjKUCnTLZN4&t=218s",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(800)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ビビヨン、カバルドン、フライゴン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5460",
+              url: "https://www.youtube.com/watch?v=cWCAJbGf3ew",
             },
           ],
           steps: [

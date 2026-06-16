@@ -9,19 +9,39 @@ export default {
     stars: {
       1: [
         {
-          image: `/npshs/img/${no}/poke1.png`,
+          image: `/npshs/img/${no}/poke1a.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "スコルピ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5289",
+              url: "https://www.youtube.com/watch?v=tA2q39jf4ps",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke1b.png`,
+          info: {
+            area: "荒野(夜) Lv2",
+            pose: "変動(800)",
+            position: "胴と首の間",
+            friend: ["バルジーナ"],
+            others: "ディグダ",
+          },
+          videos: [
+            {
+              name: "Quentin",
+              score: "5403",
+              url: "https://www.youtube.com/watch?v=XwZKs9QEcc8",
             },
           ],
           steps: [
@@ -34,17 +54,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "スコルピ、ナックラー、サンド、サボネア",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "5517",
+              url: "https://www.youtube.com/watch?v=WlHqgdEeqik",
             },
           ],
           steps: [
@@ -57,17 +77,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "荒野(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭と頭の間",
+            friend: ["エンニュート"],
+            others: "ゼラオラ、ディグダ、イワンコ、アチャモ",
           },
           videos: [
             {
-              name: "",
+              name: "黒歌鳥",
               score: "",
-              url: "",
+              url: "https://www.youtube.com/watch?v=6jp_8BFzKTI",
             },
           ],
           steps: [
@@ -80,17 +100,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "荒野(夜) Lv1",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: ["ルガルガン"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5800",
+              url: "https://www.youtube.com/watch?v=S3yAOn4rVvg",
             },
           ],
           steps: [

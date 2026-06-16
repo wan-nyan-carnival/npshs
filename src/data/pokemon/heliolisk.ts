@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "スナヘビ、カバルドン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5692",
+              url: "https://www.youtube.com/watch?v=1NpD0gUwdqE",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "スナヘビ、カバルドン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5706",
+              url: "https://www.youtube.com/watch?v=zLcFnC0qW4s",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "固定(750)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "スコルピ、サボネア、ヒバニー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Pokemario6456",
+              score: "5214",
+              url: "https://www.youtube.com/watch?v=rvjQWat9OGA",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "砂漠(昼) Lv3",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "スコルピ、サボネア、ヒバニー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5584",
+              url: "https://www.youtube.com/watch?v=A_u4_zLF4Pk",
             },
           ],
           steps: [

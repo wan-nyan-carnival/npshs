@@ -13,7 +13,7 @@ export default {
           info: {
             area: "火山(イルミナ)",
             pose: "固定(1500)",
-            position: "頭と胴",
+            position: "頭と胴の間",
             friend: ["ウルガモス"],
             others: "モウカザル",
           },
@@ -59,7 +59,7 @@ export default {
           info: {
             area: "火山(イルミナ)",
             pose: "変動(2000)",
-            position: "頭と胴",
+            position: "頭と胴の間",
             friend: ["ウルガモス"],
             others: "モウカザル",
           },

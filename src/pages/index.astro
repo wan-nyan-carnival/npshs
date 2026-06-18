@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SideMenu from '../components/SideMenu.astro';
+import BackToTop from '../components/BackToTop.astro';
 import { pokemonList } from '../data';
 import { pokemonGroups } from '../data/groups';
 
@@ -30,6 +32,8 @@ const grouped = pokemonGroups.map(group => ({
 ---
 
 <Layout>
+  <SideMenu groups={pokemonGroups} />
+  <BackToTop />
   <div id="main-box">
     {grouped.map(group => (
       <>

@@ -1,0 +1,131 @@
+---
+const { groups } = Astro.props;
+---
+
+<button id="menu-button" class="menu-button" aria-label="メニュー">
+  ☰
+</button>
+
+<nav id="side-menu" class="side-menu">
+  <button id="close-button" class="close-button">×</button>
+
+  <ul>
+    {groups.map(group => (
+      <li>
+        <a href={`#${group.id}`}>{group.label}</a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<div id="overlay" class="overlay"></div>
+
+<script>
+  const menu = document.getElementById("side-menu");
+  const overlay = document.getElementById("overlay");
+  const openBtn = document.getElementById("menu-button");
+  const closeBtn = document.getElementById("close-button");
+
+  openBtn?.addEventListener("click", () => {
+    menu?.classList.add("open");
+    overlay?.classList.add("show");
+  });
+
+  const closeMenu = () => {
+    menu?.classList.remove("open");
+    overlay?.classList.remove("show");
+  };
+
+  closeBtn?.addEventListener("click", closeMenu);
+  overlay?.addEventListener("click", closeMenu);
+
+  menu?.querySelectorAll("a").forEach(a => {
+    a.addEventListener("click", closeMenu);
+  });
+</script>
+
+<style>
+  .menu-button {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #f9f9f9;
+    border: solid 2px #555;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    font-size: 1.5rem;
+    color:#333;
+  }
+
+  .side-menu {
+    position: fixed;
+    top: 0;
+    right: -260px; /* left → right */
+    width: 240px;
+    height: 100vh;
+    background: white;
+    box-shadow: -2px 0 10px rgba(0,0,0,.2);
+    transition: right .3s;
+    z-index: 1002;
+    padding: 1rem;
+  }
+
+  .side-menu.open {
+    right: 0;
+  }
+
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+
+  .side-menu li {
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .side-menu li:first-of-type {
+    border-top: 1px solid #ddd;
+  }
+
+  .side-menu a {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    color: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  .side-menu a:hover {
+      background-color: #d8e8ff;
+  }
+
+  .close-button {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s;
+    z-index: 1000;
+  }
+
+  .overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+</style>

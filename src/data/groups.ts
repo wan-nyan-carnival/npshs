@@ -7,4 +7,5 @@ export const pokemonGroups = [
   { id: "reef", label: "海上" },
   { id: "undersea", label: "海中" },
   { id: "sands", label: "砂漠" },
+  { id: "volcano", label: "火山" },
 ];

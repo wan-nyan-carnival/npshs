@@ -5,7 +5,7 @@ export default {
     name: "メテノ",
     en: "Minior",
     no,
-    groups: ["砂漠", ],
+    groups: ["砂漠", "荒野", ],
     stars: {
       1: [
         {

@@ -42,6 +42,11 @@ export default {
           },
           videos: [
             {
+              name: "Dmo_1123",
+              score: "5715",
+              url: "https://www.youtube.com/watch?v=FRLo04nEVmE",
+            },
+            {
               name: "黒歌鳥",
               score: "5706",
               url: "https://www.youtube.com/watch?v=zLcFnC0qW4s",
@@ -64,6 +69,11 @@ export default {
             others: "スコルピ、サボネア、ヒバニー",
           },
           videos: [
+            {
+              name: "Dmo_1123",
+              score: "5300",
+              url: "https://www.youtube.com/watch?v=thf3QkOL0Q4",
+            },
             {
               name: "Pokemario6456",
               score: "5214",

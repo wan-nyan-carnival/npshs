@@ -8,4 +8,5 @@ export const pokemonGroups = [
   { id: "undersea", label: "海中" },
   { id: "sands", label: "砂漠" },
   { id: "volcano", label: "火山" },
+  { id: "snowfields", label: "雪原" },
 ];

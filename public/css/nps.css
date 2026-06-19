@@ -130,7 +130,10 @@ h3 {
     margin:0 0 1.0em 1.0em;
 }
 .photo {
-    max-width:400px;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 400 / 204;
+    background: #eee;
     position: relative;
 }
 .photo img {

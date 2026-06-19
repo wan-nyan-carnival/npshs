@@ -1,27 +1,27 @@
-const no = 130;
+const no = 175;
 
 export default {
-    id: "minior",
-    name: "メテノ",
-    en: "Minior",
+    id: "spheal",
+    name: "タマザラシ",
+    en: "Spheal",
     no,
-    groups: ["砂漠", "荒野", ],
+    groups: ["雪原", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "砂漠(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
+            area: "",
+            pose: "",
+            position: "",
             friend: [""],
-            others: "スコルピ、ナックラー、サボネア",
+            others: "",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5330",
-              url: "https://www.youtube.com/watch?v=B5dNY7YIHk4",
+              name: "",
+              score: "",
+              url: "",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "砂漠(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
+            area: "",
+            pose: "",
+            position: "",
             friend: [""],
-            others: "メテオラ",
+            others: "",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5378",
-              url: "https://www.youtube.com/watch?v=vRz0yGKwT-0",
+              name: "",
+              score: "",
+              url: "",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "砂漠(夜) Lv2",
-            pose: "変動(800)",
-            position: "胴",
-            friend: ["サボネア"],
+            area: "",
+            pose: "",
+            position: "",
+            friend: [""],
             others: "",
           },
           videos: [
             {
-              name: "Whom Snaps",
-              score: "5312",
-              url: "https://www.youtube.com/watch?v=XrGwPbmPhHU",
+              name: "",
+              score: "",
+              url: "",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "砂漠(夜) Lv2",
-            pose: "固定(950)",
-            position: "胴と胴の間(※)",
-            friend: ["メテオラ"],
+            area: "",
+            pose: "",
+            position: "",
+            friend: [""],
             others: "",
           },
           videos: [
             {
-              name: "黒歌鳥",
-              score: "5595",
-              url: "https://www.youtube.com/watch?v=Ylz4PJjSbFA",
+              name: "",
+              score: "",
+              url: "",
             },
           ],
           steps: [

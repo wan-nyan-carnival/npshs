@@ -36,7 +36,7 @@ export default {
           info: {
             area: "公園(昼) Lv3",
             pose: "変動(800)",
-            position: "頭と頭の中間",
+            position: "頭と胴の中間",
             friend: ["ヒバニー"],
             others: "サルノリ、シェイミ、キュワワー、フラージェス",
           },
@@ -82,7 +82,7 @@ export default {
           info: {
             area: "公園(昼) Lv3",
             pose: "変動(1000)",
-            position: "頭と頭の中間",
+            position: "頭と胴の中間",
             friend: ["ヒバニー"],
             others: "エモンガ",
           },

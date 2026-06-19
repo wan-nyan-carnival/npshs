@@ -36,7 +36,7 @@ export default {
           info: {
             area: "公園(昼) Lv3",
             pose: "変動(800)",
-            position: "頭と頭の中間",
+            position: "胴と頭の中間",
             friend: ["サルノリ"],
             others: "キュワワー",
           },
@@ -82,7 +82,7 @@ export default {
           info: {
             area: "公園(昼) Lv3",
             pose: "固定(950)",
-            position: "頭と頭の間",
+            position: "頭と胴の間",
             friend: ["ヒバニー"],
             others: "サルノリ、キュワワー",
           },

@@ -127,11 +127,11 @@ h3 {
     margin:0 0 1.0em 1.0em;
 }
 .photo {
-    width:min(400px,100%);
+    max-width:400px;
     position: relative;
 }
 .photo img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -151,10 +151,7 @@ h3 {
 .data {
     flex:1;
 }
-.photo,
-.data {
-    min-width: 0;
-}
+
 @media (max-width: 768px) {
     .photo,
     .data {

@@ -1,28 +1,61 @@
 ---
 interface Props {
-  x: number;
-  y: number;
-  image: string;
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+  viewWidth?: number;
+  viewHeight?: number;
+  stroke?: string;
+  strokeWidth?: number;
 }
 
-const { x, y, image } = Astro.props;
-const uid = crypto.randomUUID();
+const {
+  x1,
+  y1,
+  x2,
+  y2,
+  viewWidth = 400,
+  viewHeight = 203,
+  stroke = "red",
+  strokeWidth = 2,
+} = Astro.props;
 ---
 
-<img
-  id={uid}
-  src={image}
-  alt=""
+<svg
   class="position-line"
-  style={`left:${x}px;top:${y}px;`}
-/>
+  viewBox={`0 0 ${viewWidth} ${viewHeight}`}
+  preserveAspectRatio="none"
+>
+  <line
+    x1={x1}
+    y1={y1}
+    x2={x2}
+    y2={y2}
+    stroke={stroke}
+    stroke-width={strokeWidth}
+  />
+
+  <line
+    x1={x2}
+    y1={y1}
+    x2={x1}
+    y2={y2}
+    stroke={stroke}
+    stroke-width={strokeWidth}
+  />
+</svg>
 
 <style>
 .position-line {
   position: absolute;
-  opacity: 0;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   pointer-events: none;
-  transition: opacity .2s;
+
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
 
 .position-line.show {

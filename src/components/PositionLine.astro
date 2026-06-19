@@ -1,0 +1,31 @@
+---
+interface Props {
+  x: number;
+  y: number;
+  image: string;
+}
+
+const { x, y, image } = Astro.props;
+const uid = crypto.randomUUID();
+---
+
+<img
+  id={uid}
+  src={image}
+  alt=""
+  class="position-line"
+  style={`left:${x}px;top:${y}px;`}
+/>
+
+<style>
+.position-line {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+}
+
+.position-line.show {
+  opacity: 1;
+}
+</style>

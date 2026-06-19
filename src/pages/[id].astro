@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import { pokemonList } from "../data";
 import { autoLink } from "../utils/linkify";
+import PositionLine from "../components/PositionLine.astro";
 import CsButton from "../components/CsButton.astro";
 
 export async function getStaticPaths() {
@@ -48,8 +49,12 @@ const stars = [1, 2, 3, 4];
                   <h3>基本情報</h3>
 
                   <div class="column">
-                    <div class="photo">
+                    <div class="photo" data-photo>
                       <img src={entry.image} />
+
+                      <span class="click-hint">Click!</span>
+
+                      <PositionLine x={13} y={28} image="img/redline.png" />
                     </div>
 
                     <div class="data">
@@ -138,3 +143,16 @@ const stars = [1, 2, 3, 4];
     </div>
   </div>
 </Layout>
+
+<script>
+  document.querySelectorAll("[data-photo]").forEach((photo) => {
+    const line = photo.querySelector(".position-line");
+    const img = photo.querySelector("img");
+
+    if (!line || !img) return;
+
+    img.addEventListener("click", () => {
+      line.classList.toggle("show");
+    });
+  });
+</script>

@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1800)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "デリバード、ポッチャマ、ユキハミ、アマルルガ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "6396",
+              url: "https://www.youtube.com/watch?v=eHNPCOUc8cU",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(2000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "デリバード、ポッチャマ、ユキハミ、アマルルガ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "6625",
+              url: "https://www.youtube.com/watch?v=-SUD78FnoWU",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(2000)",
+            position: "首",
+            friend: ["デリバード"],
+            others: "ポッチャマ、ユキハミ、クレベース",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Wh0misTV",
+              score: "6868",
+              url: "https://www.youtube.com/watch?v=A-_7YqPvglQ",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(2000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "デリバード、ポッチャマ、ユキハミ、アマルルガ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "6682",
+              url: "https://www.youtube.com/watch?v=_cZRlduSUCU",
             },
           ],
           steps: [

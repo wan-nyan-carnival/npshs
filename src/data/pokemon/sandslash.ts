@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ユキメノコ、ビビヨン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "MahoMiau",
+              score: "5562",
+              url: "https://www.youtube.com/watch?v=NbNa1v_Z4Zs",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ユキメノコ、ビビヨン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "MahoMiau",
+              score: "5602",
+              url: "https://www.youtube.com/watch?v=2uA2QIKQU6c",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "頭と頭の間",
+            friend: ["グラエナ"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Herpingyoshi",
+              score: "5657",
+              url: "https://www.youtube.com/watch?v=6Wbi2Bj8tQc",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ユキメノコ、ビビヨン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "MahoMiau",
+              score: "5527",
+              url: "https://www.youtube.com/watch?v=Ttt84O88lSs",
             },
           ],
           steps: [

@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv2",
+            pose: "変動(550)",
+            position: "顔",
             friend: [""],
-            others: "",
+            others: "バイバニラ、ユキワラシ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5022",
+              url: "https://www.youtube.com/watch?v=Gii-5X5ymtQ",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ユキワラシ、グラエナ、ウォーグル",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5196",
+              url: "https://www.youtube.com/watch?v=7l7bpfHYK8w",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "顔と胴の間",
+            friend: ["ユキワラシ"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5182",
+              url: "https://www.youtube.com/watch?v=EgxU19-ASQc",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "顔と顔の間",
+            friend: ["ユキワラシ"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5191",
+              url: "https://www.youtube.com/watch?v=t4zt6hrqEBw",
             },
           ],
           steps: [

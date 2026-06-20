@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(夜) Lv2",
+            pose: "固定(500)",
+            position: "胴と胴の間",
+            friend: ["ポッチャマ"],
+            others: "ユキハミ、スイクン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5210",
+              url: "https://www.youtube.com/watch?v=N8vVdSgzrgg",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(800)",
+            position: "首と頭の間",
+            friend: ["ポッチャマ"],
+            others: "ユキハミ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5374",
+              url: "https://www.youtube.com/watch?v=TM-LPNWLCzI",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "デリバード、オオタチ、ユキワラシ",
           },
           videos: [
             {
-              name: "",
+              name: "Herpingyoshi",
               score: "",
-              url: "",
+              url: "https://www.youtube.com/watch?v=D27d4aeo5Oo",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "固定(950)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "ルージュラ、バイバニラ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5279",
+              url: "https://www.youtube.com/watch?v=2bs9NQgv3kE",
             },
           ],
           steps: [

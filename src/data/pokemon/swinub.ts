@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "なし",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5228",
+              url: "https://www.youtube.com/watch?v=abTSBvsCECY",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ユキノオー、ロコン、ポッチャマ、タマザラシ、モスノウ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5390",
+              url: "https://www.youtube.com/watch?v=iU9NNaaXAds",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "マンムー、グレイシア",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "4780",
+              url: "https://www.youtube.com/watch?v=MkUH0q8Oty8",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "固定(950)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ポッチャマ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "4679",
+              url: "https://www.youtube.com/watch?v=iluEvRGcfLs",
             },
           ],
           steps: [

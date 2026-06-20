@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ウリムー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5320",
+              url: "https://www.youtube.com/watch?v=rDHyZT0voec",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ウリムー、オオタチ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5163",
+              url: "https://www.youtube.com/watch?v=h6IzHPgaetk",
             },
           ],
           steps: [
@@ -55,19 +55,39 @@ export default {
 
       3: [
         {
-          image: `/npshs/img/${no}/poke3.png`,
+          image: `/npshs/img/${no}/poke3a.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭",
+            friend: ["マニューラ"],
+            others: "マンムー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5215",
+              url: "https://www.youtube.com/watch?v=cGC8QST4Izc",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke3b.png`,
+          info: {
+            area: "雪原(昼) Lv3",
+            pose: "固定(950)",
+            position: "頭",
+            friend: [""],
+            others: "オオタチ",
+          },
+          videos: [
+            {
+              name: "Quentin",
+              score: "5202",
+              url: "https://www.youtube.com/watch?v=4PB4g0gax34",
             },
           ],
           steps: [
@@ -80,17 +100,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭と頭の間",
+            friend: ["マニューラ"],
+            others: "マンムー",
           },
           videos: [
             {
-              name: "",
+              name: "MahoMiau",
               score: "",
-              url: "",
+              url: "https://www.youtube.com/watch?v=E1CxK0wBHtY",
             },
           ],
           steps: [

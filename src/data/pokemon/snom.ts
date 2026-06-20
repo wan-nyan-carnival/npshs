@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ユキハミ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "5190",
+              url: "https://www.youtube.com/watch?v=WFavlB143R8",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "固定(950)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ユキハミ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "5140",
+              url: "https://www.youtube.com/watch?v=olGw4bWLRcc",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "雪原(夜) Lv2",
+            pose: "固定(750)",
+            position: "胴と頭の間",
+            friend: ["ユキメノコ"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5135",
+              url: "https://www.youtube.com/watch?v=N94oo1h6KuQ",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴と頭の間",
+            friend: ["デリバード"],
+            others: "ユキハミ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5574",
+              url: "https://www.youtube.com/watch?v=bzU09bO9vQg",
             },
           ],
           steps: [

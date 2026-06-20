@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "ユキノオー、モスノウ、ロコン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "5422",
+              url: "https://www.youtube.com/watch?v=n7n_8mLyd6U",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "サンドパン、アマルルガ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5343",
+              url: "https://www.youtube.com/watch?v=pbJSGIIU5wk",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "サンドパン、アマルルガ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5351",
+              url: "https://www.youtube.com/watch?v=c5zgUL7V50U",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "モスノウ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5229",
+              url: "https://www.youtube.com/watch?v=r0zV-QmiS9g",
             },
           ],
           steps: [

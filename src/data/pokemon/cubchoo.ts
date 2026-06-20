@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv2",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "オオタチ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5044",
+              url: "https://www.youtube.com/watch?v=96B6gfHbK8k",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv2",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "オオタチ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5235",
+              url: "https://www.youtube.com/watch?v=uUdjzH7DozA",
             },
           ],
           steps: [
@@ -57,21 +57,29 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動",
+            position: "頭",
+            friend: ["クマシュン"],
+            others: "バイバニラ",
           },
           videos: [
             {
-              name: "",
+              name: "tripledubz",
+              score: "4709",
+              url: "https://www.twitch.tv/videos/2788318571",
+            },
+            {
+              name: "Herpingyoshi",
               score: "",
-              url: "",
+              url: "https://www.youtube.com/watch?v=a2WyAkVCl04",
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "最初の分岐と次の分岐をスキャンして進む。クマシュンが所定の位置につくまで少し時間がかかるので、ターボせずに待つ。" },
+            { type: "text", content: "目安を決めてリンゴを投げ、クマシュンを誘導し、途中バイバニラをサーチで起こす。クマシュンの移動状況を確認しながら残りのリンゴを投げて誘導していく。" },
+            { type: "text", content: "誘導したクマシュンがリンゴを食べ始めると、もう1匹のクマシュンがぶつかりにくるので、ぶつかる直前に主役クマシュンにリンゴをぶつけて、衝突リアクションを遅らせる。" },
+            { type: "text", content: "リンゴをぶつけられたリアクションが終わると、衝突リアクションを取り始めるので、そこを撮影。" },
           ]
         }
       ],
@@ -80,17 +88,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "首",
+            friend: ["ツンベアー"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Whom Snaps",
+              score: "4844",
+              url: "https://www.youtube.com/watch?v=Z7XzkHyENv0",
             },
           ],
           steps: [

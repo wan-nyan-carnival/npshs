@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(夜) Lv2",
+            pose: "固定(500)",
+            position: "頭と頭の間",
+            friend: ["グラエナ"],
+            others: "サンドパン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5337",
+              url: "https://www.youtube.com/watch?v=s70H8PZJcW0",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "オオタチ、ウリムー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Jbhmax",
+              score: "5410",
+              url: "https://www.youtube.com/watch?v=FRxujFWRaTM",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv3",
+            pose: "変動(800)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "オオタチ、マニューラ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "4707",
+              url: "https://www.youtube.com/watch?v=3yWIlTONrms",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(昼) Lv3",
+            pose: "固定(950)",
+            position: "胴",
+            friend: ["オオタチ"],
+            others: "マニューラ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "MahoMiau",
+              score: "4905",
+              url: "https://www.youtube.com/watch?v=He-JNK0KMBA",
             },
           ],
           steps: [

@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv2",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "ジュゴン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5044",
+              url: "https://www.youtube.com/watch?v=EVgvyKN8Kok",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(昼) Lv2",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ポッチャマ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5018",
+              url: "https://www.youtube.com/watch?v=2D1Lm2TaU24",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "雪原(昼) Lv2",
+            pose: "変動(800)",
+            position: "首と首の間",
+            friend: ["ジュゴン"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Pokemario6456",
+              score: "5454",
+              url: "https://www.youtube.com/watch?v=e_E3YQzBlEI",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "雪原(昼) Lv3",
+            pose: "変動(1000)",
+            position: "頭",
+            friend: ["タマザラシ"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "4424",
+              url: "https://www.youtube.com/watch?v=BdhWkcYyw_M",
             },
           ],
           steps: [

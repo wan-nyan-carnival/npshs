@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "固定(500)",
+            position: "右の顔",
             friend: [""],
-            others: "",
+            others: "ツンベアー、マンムー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5230",
+              url: "https://www.youtube.com/watch?v=z_tk_rXVUnQ",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(550)",
+            position: "右の顔",
             friend: [""],
-            others: "",
+            others: "ツンベアー、マンムー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Dmo_1123",
+              score: "5316",
+              url: "https://www.youtube.com/watch?v=6S1uSm2rRyw",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
+            area: "雪原(夜) Lv2",
+            pose: "変動(800)",
+            position: "左の顔",
+            friend: ["ルージュラ"],
             others: "",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Dmo_1123",
+              score: "5725",
+              url: "https://www.youtube.com/watch?v=waHYV3x82lE",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
             friend: [""],
-            others: "",
+            others: "ツンベアー、マンムー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Dmo_1123",
+              score: "5727",
+              url: "https://www.youtube.com/watch?v=TUO-0LSGM_s",
             },
           ],
           steps: [

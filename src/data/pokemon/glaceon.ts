@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ユキノオー、タマザラシ、ポッチャマ、ロコン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5739",
+              url: "https://www.youtube.com/watch?v=UGVUBiqOJyk",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(550)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ユキノオー、タマザラシ、ポッチャマ、ロコン、モスノウ、ウリムー",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5278",
+              url: "https://www.youtube.com/watch?v=rnqky55xufs",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(800)",
+            position: "頭",
             friend: [""],
-            others: "",
+            others: "ユキノオー、タマザラシ、ポッチャマ、ロコン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5472",
+              url: "https://www.youtube.com/watch?v=pOeZw5UOp04",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴と頭の間",
+            friend: ["ポッチャマ"],
+            others: "ロコン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "黒歌鳥",
+              score: "5469",
+              url: "https://www.youtube.com/watch?v=0IwvTe3Y9AY",
             },
           ],
           steps: [

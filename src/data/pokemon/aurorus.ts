@@ -11,17 +11,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "アマルルガ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5177",
+              url: "https://www.youtube.com/watch?v=AJbO2zW5Rs8",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "首",
             friend: [""],
-            others: "",
+            others: "ルージュラ、バイバニラ、ビビヨン",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5515",
+              url: "https://www.youtube.com/watch?v=Rv-Vm5xdab4",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(夜) Lv2",
+            pose: "固定(750)",
+            position: "胴と頭の間",
+            friend: ["アマルルガ"],
+            others: "グラエナ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5440",
+              url: "https://www.youtube.com/watch?v=-eICIWopwAQ",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "",
-            pose: "",
-            position: "",
-            friend: [""],
-            others: "",
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "首と首の間",
+            friend: ["アマルルガ"],
+            others: "スイクン、グラエナ",
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "5744",
+              url: "https://www.youtube.com/watch?v=j4jfSTpcs3g",
             },
           ],
           steps: [

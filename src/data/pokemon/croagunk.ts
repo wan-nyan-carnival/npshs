@@ -1,27 +1,27 @@
-const no = 160;
+const no = 190;
 
 export default {
-    id: "braviary",
-    name: "ウォーグル",
-    en: "Braviary",
+    id: "croagunk",
+    name: "グレッグル",
+    en: "Croagunk",
     no,
-    groups: ["雪原", "洞窟", ],
+    groups: ["洞窟", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "雪原(夜) Lv2",
+            area: "洞窟 Lv3",
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "グラエナ、ユキワラシ",
+            others: "ヌメルゴン、ピッピ、バチュル",
           },
           videos: [
             {
-              name: "Herpingyoshi",
-              score: "5105",
-              url: "https://www.youtube.com/watch?v=-At0zuqNJlU",
+              name: "Quentin",
+              score: "5136",
+              url: "https://www.youtube.com/watch?v=MJef_YHww9s",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "雪原(夜) Lv2",
-            pose: "変動(1000)",
+            area: "洞窟 Lv3",
+            pose: "固定(750)",
             position: "胴",
             friend: [""],
-            others: "グラエナ、ユキワラシ",
+            others: "ピッピ、バチュル",
           },
           videos: [
             {
               name: "Quentin",
-              score: "5344",
-              url: "https://www.youtube.com/watch?v=FPAx0CtjjFA",
+              score: "4997",
+              url: "https://www.youtube.com/watch?v=KTOvVGnNcg0",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "雪原(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
-            friend: [""],
-            others: "グラエナ、ユキワラシ",
+            area: "洞窟 Lv3",
+            pose: "固定(750)",
+            position: "胴と頭の間",
+            friend: ["グレッグル"],
+            others: "",
           },
           videos: [
             {
-              name: "Whom Snaps",
-              score: "5502",
-              url: "https://www.youtube.com/watch?v=iHgWA9R4i4Y",
+              name: "Herpingyoshi",
+              score: "",
+              url: "https://www.youtube.com/watch?v=sPbKwfgAf1o",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "雪原(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
-            friend: [""],
-            others: "グラエナ",
+            area: "洞窟 Lv3",
+            pose: "固定(950)",
+            position: "胴と胴の間",
+            friend: ["グレッグル"],
+            others: "",
           },
           videos: [
             {
               name: "Whom Snaps",
-              score: "5053",
-              url: "https://www.youtube.com/watch?v=G9y7TkoYOt0",
+              score: "5584",
+              url: "https://www.youtube.com/watch?v=HITfGmaJIDI",
             },
           ],
           steps: [

@@ -1,27 +1,27 @@
-const no = 160;
+const no = 184;
 
 export default {
-    id: "braviary",
-    name: "ウォーグル",
-    en: "Braviary",
+    id: "joltik",
+    name: "バチュル",
+    en: "Joltik",
     no,
-    groups: ["雪原", "洞窟", ],
+    groups: ["洞窟", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "雪原(夜) Lv2",
+            area: "洞窟 Lv3",
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "グラエナ、ユキワラシ",
+            others: "バチュル",
           },
           videos: [
             {
-              name: "Herpingyoshi",
-              score: "5105",
-              url: "https://www.youtube.com/watch?v=-At0zuqNJlU",
+              name: "黒歌鳥",
+              score: "5023",
+              url: "https://www.youtube.com/watch?v=ggQba0TC22A",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "雪原(夜) Lv2",
+            area: "洞窟 Lv3",
             pose: "変動(1000)",
-            position: "胴",
-            friend: [""],
-            others: "グラエナ、ユキワラシ",
+            position: "胴と胴の間",
+            friend: ["バチュル"],
+            others: "",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5344",
-              url: "https://www.youtube.com/watch?v=FPAx0CtjjFA",
+              name: "黒歌鳥",
+              score: "5757",
+              url: "https://www.youtube.com/watch?v=ccb0gZsg1FE",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "雪原(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
-            friend: [""],
-            others: "グラエナ、ユキワラシ",
+            area: "洞窟 Lv3",
+            pose: "固定(500)",
+            position: "胴と胴の間",
+            friend: ["フワンテ"],
+            others: "バチュル",
           },
           videos: [
             {
-              name: "Whom Snaps",
-              score: "5502",
-              url: "https://www.youtube.com/watch?v=iHgWA9R4i4Y",
+              name: "黒歌鳥",
+              score: "5121",
+              url: "https://www.youtube.com/watch?v=pjoM_Jae6_o",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "雪原(夜) Lv2",
-            pose: "変動(1000)",
+            area: "洞窟 Lv3",
+            pose: "固定(950)",
             position: "胴",
             friend: [""],
-            others: "グラエナ",
+            others: "バケッチャ",
           },
           videos: [
             {
-              name: "Whom Snaps",
-              score: "5053",
-              url: "https://www.youtube.com/watch?v=G9y7TkoYOt0",
+              name: "黒歌鳥",
+              score: "4375",
+              url: "https://www.youtube.com/watch?v=qPcYL2q5qvI",
             },
           ],
           steps: [

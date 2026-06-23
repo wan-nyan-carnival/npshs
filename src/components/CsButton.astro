@@ -3,10 +3,20 @@ const { pokemonNo, starNum } = Astro.props;
 
 const BASE = 464549;
 const STEP = 214;
+const BASE_DLC = 472741;
+const STEP_DLC = 20;
 
-const url = `https://cyberscore.me.uk/charts/${
-  BASE + pokemonNo + (starNum - 1) * STEP
-}`;
+let url;
+
+if (pokemonNo <= 214) {
+  url = `https://cyberscore.me.uk/charts/${
+    BASE + pokemonNo + (starNum - 1) * STEP
+  }`;
+} else {
+  url = `https://cyberscore.me.uk/charts/${
+    BASE_DLC + pokemonNo + (starNum - 1) * STEP_DLC
+  }`;
+}
 ---
 
 <a class="cs" href={url} target="_blank">

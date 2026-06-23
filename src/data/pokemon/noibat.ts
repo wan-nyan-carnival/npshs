@@ -1,27 +1,27 @@
-const no = 160;
+const no = 188;
 
 export default {
-    id: "braviary",
-    name: "ウォーグル",
-    en: "Braviary",
+    id: "noibat",
+    name: "オンバット",
+    en: "Noibat",
     no,
-    groups: ["雪原", "洞窟", ],
+    groups: ["洞窟", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "雪原(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
+            area: "洞窟 Lv3",
+            pose: "固定(450)",
+            position: "頭",
             friend: [""],
-            others: "グラエナ、ユキワラシ",
+            others: "オンバット、ヌメルゴン、クロバット、ピッピ、バチュル",
           },
           videos: [
             {
               name: "Herpingyoshi",
-              score: "5105",
-              url: "https://www.youtube.com/watch?v=-At0zuqNJlU",
+              score: "",
+              url: "https://www.youtube.com/watch?v=9POpsP_uRkc",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "雪原(夜) Lv2",
+            area: "洞窟 Lv2",
             pose: "変動(1000)",
-            position: "胴",
+            position: "頭",
             friend: [""],
-            others: "グラエナ、ユキワラシ",
+            others: "オンバット、メレシー",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5344",
-              url: "https://www.youtube.com/watch?v=FPAx0CtjjFA",
+              name: "MahoMiau",
+              score: "5244",
+              url: "https://www.youtube.com/watch?v=FaD_8FagREM",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "雪原(夜) Lv2",
+            area: "洞窟 Lv2",
             pose: "変動(1000)",
-            position: "胴",
+            position: "頭",
             friend: [""],
-            others: "グラエナ、ユキワラシ",
+            others: "なし",
           },
           videos: [
             {
-              name: "Whom Snaps",
-              score: "5502",
-              url: "https://www.youtube.com/watch?v=iHgWA9R4i4Y",
+              name: "kumamop",
+              score: "5169",
+              url: "https://www.youtube.com/watch?v=bNFSSgsJcYg",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "雪原(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
+            area: "洞窟 Lv2",
+            pose: "固定(950)",
+            position: "頭",
             friend: [""],
-            others: "グラエナ",
+            others: "なし",
           },
           videos: [
             {
-              name: "Whom Snaps",
-              score: "5053",
-              url: "https://www.youtube.com/watch?v=G9y7TkoYOt0",
+              name: "MahoMiau",
+              score: "5164",
+              url: "https://www.youtube.com/watch?v=cLEqdPqpCLU",
             },
           ],
           steps: [

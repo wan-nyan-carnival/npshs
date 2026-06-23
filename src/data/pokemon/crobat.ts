@@ -1,27 +1,27 @@
-const no = 160;
+const no = 183;
 
 export default {
-    id: "braviary",
-    name: "ウォーグル",
-    en: "Braviary",
+    id: "crobat",
+    name: "クロバット",
+    en: "Crobat",
     no,
-    groups: ["雪原", "洞窟", ],
+    groups: ["洞窟", ],
     stars: {
       1: [
         {
           image: `/npshs/img/${no}/poke1.png`,
           info: {
-            area: "雪原(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
-            friend: [""],
-            others: "グラエナ、ユキワラシ",
+            area: "洞窟 Lv3",
+            pose: "変動(800)",
+            position: "頭と胴の間",
+            friend: ["ゲンガー"],
+            others: "",
           },
           videos: [
             {
-              name: "Herpingyoshi",
-              score: "5105",
-              url: "https://www.youtube.com/watch?v=-At0zuqNJlU",
+              name: "MahoMiau",
+              score: "5308",
+              url: "https://www.youtube.com/watch?v=71-reTyu1mk",
             },
           ],
           steps: [
@@ -34,17 +34,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke2.png`,
           info: {
-            area: "雪原(夜) Lv2",
+            area: "洞窟 Lv3",
             pose: "変動(1000)",
-            position: "胴",
+            position: "頭",
             friend: [""],
-            others: "グラエナ、ユキワラシ",
+            others: "イシツブテ、ラムパルド、サザンドラ",
           },
           videos: [
             {
-              name: "Quentin",
-              score: "5344",
-              url: "https://www.youtube.com/watch?v=FPAx0CtjjFA",
+              name: "黒歌鳥",
+              score: "5019",
+              url: "https://www.youtube.com/watch?v=Bv6TxZpXk-4",
             },
           ],
           steps: [
@@ -57,17 +57,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke3.png`,
           info: {
-            area: "雪原(夜) Lv2",
+            area: "洞窟 Lv3",
             pose: "変動(1000)",
-            position: "胴",
+            position: "頭",
             friend: [""],
-            others: "グラエナ、ユキワラシ",
+            others: "ゲンガー",
           },
           videos: [
             {
-              name: "Whom Snaps",
-              score: "5502",
-              url: "https://www.youtube.com/watch?v=iHgWA9R4i4Y",
+              name: "黒歌鳥",
+              score: "4939",
+              url: "https://www.youtube.com/watch?v=_Rl_2-ggY_8",
             },
           ],
           steps: [
@@ -80,17 +80,17 @@ export default {
         {
           image: `/npshs/img/${no}/poke4.png`,
           info: {
-            area: "雪原(夜) Lv2",
-            pose: "変動(1000)",
-            position: "胴",
+            area: "洞窟 Lv3",
+            pose: "固定(950)",
+            position: "頭",
             friend: [""],
-            others: "グラエナ",
+            others: "イシツブテ、ラムパルド、サザンドラ",
           },
           videos: [
             {
-              name: "Whom Snaps",
-              score: "5053",
-              url: "https://www.youtube.com/watch?v=G9y7TkoYOt0",
+              name: "Quentin",
+              score: "5130",
+              url: "https://www.youtube.com/watch?v=ORUaKv9VtPc",
             },
           ],
           steps: [

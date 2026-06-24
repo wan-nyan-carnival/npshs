@@ -65,7 +65,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "FlinchHacks",
               score: "",
               url: "https://www.youtube.com/watch?v=D27d4aeo5Oo",
             },

@@ -108,7 +108,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "だれか",
               score: "",
               url: "https://www.youtube.com/watch?v=SSon3sD6wdQ",
             },

@@ -42,7 +42,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "Dmo",
               score: "5185",
               url: "https://www.youtube.com/watch?v=3q42oScY8Mk",
             },
@@ -65,7 +65,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "Dmo",
               score: "5369",
               url: "https://www.youtube.com/watch?v=4Bh-vifGg68",
             },

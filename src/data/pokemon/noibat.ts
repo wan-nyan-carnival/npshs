@@ -19,7 +19,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "だれか",
               score: "",
               url: "https://www.youtube.com/watch?v=9POpsP_uRkc",
             },
@@ -64,6 +64,11 @@ export default {
             others: "なし",
           },
           videos: [
+            {
+              name: "MahoMiau",
+              score: "5174",
+              url: "https://www.youtube.com/watch?v=ztza6jgg6wM",
+            },
             {
               name: "kumamop",
               score: "5169",

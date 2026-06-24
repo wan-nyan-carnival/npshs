@@ -70,7 +70,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "Tripledubz",
               score: "",
               url: "https://www.youtube.com/watch?v=ROEd5bCTwCE",
             },

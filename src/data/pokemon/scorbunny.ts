@@ -19,7 +19,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "Googolbonker",
               score: "5659",
               url: "https://www.youtube.com/watch?v=GonUnmWW8S0",
             },

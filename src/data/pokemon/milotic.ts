@@ -23,6 +23,11 @@ export default {
               score: "6032",
               url: "https://www.youtube.com/watch?v=2X4neXm-I80",
             },
+            {
+              name: "Dmo",
+              score: "6029",
+              url: "https://www.youtube.com/watch?v=1iUmRU1qal8",
+            },
           ],
           steps: [
             { type: "text", content: "誰か書いて。" },

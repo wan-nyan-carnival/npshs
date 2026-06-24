@@ -42,7 +42,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "A^2",
               score: "",
               url: "https://www.youtube.com/watch?v=3VRrtnPQ3tk",
             },
@@ -88,7 +88,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "だれか",
               score: "",
               url: "https://www.youtube.com/watch?v=u9Urr_jjQKo",
             },

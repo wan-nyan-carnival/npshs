@@ -10,8 +10,8 @@ export const pokemonGroups = [
   { id: "forest", label: "樹海" },
   { id: "snowfields", label: "雪原" },
   { id: "cave", label: "洞窟" },
-/*  { id: "ruins", label: "遺跡" },
+  { id: "ruins", label: "遺跡" },
   { id: "sidepath", label: "抜け道" },
-  { id: "river", label: "リバー" },
+/*  { id: "river", label: "リバー" },
   { id: "badlands", label: "荒野" },*/
 ];

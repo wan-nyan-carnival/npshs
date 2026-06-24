@@ -19,7 +19,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "Milc",
               score: "",
               url: "https://www.youtube.com/watch?v=yzme8D8HMnQ",
             },

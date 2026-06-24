@@ -70,7 +70,7 @@ export default {
               url: "https://www.twitch.tv/videos/2788318571",
             },
             {
-              name: "Herpingyoshi",
+              name: "Milc",
               score: "",
               url: "https://www.youtube.com/watch?v=a2WyAkVCl04",
             },

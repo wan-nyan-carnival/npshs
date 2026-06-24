@@ -62,7 +62,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "KosmicWaffle",
               score: "5000",
               url: "https://www.youtube.com/watch?v=w8kS9oryod8",
             },

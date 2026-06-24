@@ -57,7 +57,7 @@ export default {
               url: "https://www.youtube.com/watch?v=FXqaa2uehwU",
             },
             {
-              name: "Herpingyoshi",
+              name: "Tripledubz",
               score: "5572",
               url: "https://www.youtube.com/watch?v=FXqaa2uehwU",
             },

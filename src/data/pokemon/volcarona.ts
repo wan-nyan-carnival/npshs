@@ -19,7 +19,7 @@ export default {
           },
           videos: [
             {
-              name: "Herpingyoshi",
+              name: "Dmo1123",
               score: "",
               url: "https://www.youtube.com/watch?v=WTa5r8BBCBE",
             },

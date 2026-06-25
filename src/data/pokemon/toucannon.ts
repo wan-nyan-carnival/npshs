@@ -5,7 +5,7 @@ export default {
     name: "ドデカバシ",
     en: "Toucannon",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

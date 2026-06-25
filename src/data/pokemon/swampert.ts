@@ -5,7 +5,7 @@ export default {
     name: "ラグラージ",
     en: "Swampert",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

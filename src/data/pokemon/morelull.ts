@@ -5,7 +5,7 @@ export default {
     name: "ネマシュ",
     en: "Morelull",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

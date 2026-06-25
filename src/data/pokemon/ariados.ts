@@ -5,7 +5,7 @@ export default {
     name: "アリアドス",
     en: "Ariados",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

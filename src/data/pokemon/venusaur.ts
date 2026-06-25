@@ -5,7 +5,7 @@ export default {
     name: "フシギバナ",
     en: "Venusaur",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

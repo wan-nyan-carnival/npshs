@@ -12,6 +12,6 @@ export const pokemonGroups = [
   { id: "cave", label: "洞窟" },
   { id: "ruins", label: "遺跡" },
   { id: "sidepath", label: "抜け道" },
-/*  { id: "river", label: "リバー" },
-  { id: "badlands", label: "荒野" },*/
+  { id: "river", label: "リバー" },
+  { id: "badlands", label: "荒野" },
 ];

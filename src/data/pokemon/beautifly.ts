@@ -5,7 +5,7 @@ export default {
     name: "アゲハント",
     en: "Beautifly",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

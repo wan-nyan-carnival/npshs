@@ -5,7 +5,7 @@ export default {
     name: "レディアン",
     en: "Ledian",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

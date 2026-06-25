@@ -5,7 +5,7 @@ export default {
     name: "トランセル",
     en: "Metapod",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

@@ -5,7 +5,7 @@ export default {
     name: "ヌオー",
     en: "Quagsire",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

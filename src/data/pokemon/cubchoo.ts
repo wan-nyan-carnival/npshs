@@ -92,7 +92,7 @@ export default {
             pose: "変動(1000)",
             position: "首",
             friend: ["ツンベアー"],
-            others: "",
+            others: "マニューラ",
           },
           videos: [
             {

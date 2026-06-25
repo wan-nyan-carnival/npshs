@@ -5,7 +5,7 @@ export default {
     name: "ウパー",
     en: "Wooper",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

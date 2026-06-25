@@ -5,7 +5,7 @@ export default {
     name: "メッソン",
     en: "Sobble",
     no,
-    groups: ["ジャングル", ],
+    groups: ["ジャングル", "リバー", ],
     stars: {
       1: [
         {

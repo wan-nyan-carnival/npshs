@@ -70,13 +70,13 @@ export default {
               url: "https://www.twitch.tv/videos/2788318571",
             },
             {
-              name: "Milc",
-              score: "",
-              url: "https://www.youtube.com/watch?v=a2WyAkVCl04",
+              name: "かける",
+              score: "4684",
+              url: "https://www.youtube.com/watch?v=no-P593B2rU",
             },
           ],
           steps: [
-            { type: "text", content: "最初の分岐と次の分岐をスキャンして進む。クマシュンが所定の位置につくまで少し時間がかかるので、ターボせずに待つ。" },
+            { type: "text", content: "最初の分岐と次の分岐をスキャンして進む。クマシュンが所定の位置につくまで少し時間がかかるので、ターボを控えめにして待つ。" },
             { type: "text", content: "目安を決めてリンゴを投げ、クマシュンを誘導し、途中バイバニラをサーチで起こす。クマシュンの移動状況を確認しながら残りのリンゴを投げて誘導していく。" },
             { type: "text", content: "誘導したクマシュンがリンゴを食べ始めると、もう1匹のクマシュンがぶつかりにくるので、ぶつかる直前に主役クマシュンにリンゴをぶつけて、衝突リアクションを遅らせる。" },
             { type: "text", content: "リンゴをぶつけられたリアクションが終わると、衝突リアクションを取り始めるので、そこを撮影。" },

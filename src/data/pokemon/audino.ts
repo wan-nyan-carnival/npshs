@@ -5,7 +5,7 @@ export default {
     name: "タブンネ",
     en:"Audino",
     no,
-    groups: ["ベースキャンプ", ],
+    groups: ["キャンプ", ],
     stars: {
       1: [
         {

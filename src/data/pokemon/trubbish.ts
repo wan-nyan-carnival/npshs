@@ -5,7 +5,7 @@ export default {
     name: "ヤブクロン",
     en:"Trubbish",
     no,
-    groups: ["ベースキャンプ", ],
+    groups: ["キャンプ", ],
     stars: {
       1: [
         {

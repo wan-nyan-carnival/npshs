@@ -5,7 +5,7 @@ export default {
     name: "ピカチュウ",
     en:"Pikachu",
     no,
-    groups: ["ベースキャンプ", "ビーチ", "抜け道", ],
+    groups: ["キャンプ", "ビーチ", "抜け道", ],
     stars: {
       1: [
         {

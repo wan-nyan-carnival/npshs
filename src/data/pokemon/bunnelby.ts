@@ -5,7 +5,7 @@ export default {
     name: "ホルビー",
     en:"Bunnelby",
     no,
-    groups: ["ベースキャンプ", ],
+    groups: ["キャンプ", ],
     stars: {
       1: [
         {

@@ -5,7 +5,7 @@ export default {
     name: "ニャース",
     en:"Meowth",
     no,
-    groups: ["ベースキャンプ", ],
+    groups: ["キャンプ", ],
     stars: {
       1: [
         {

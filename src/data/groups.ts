@@ -5,7 +5,7 @@ export const pokemonGroups = [
   { id: "beach", label: "ビーチ" },
   { id: "reef", label: "海上" },
   { id: "undersea", label: "海中" },
-  { id: "camp", label: "ベースキャンプ" },
+  { id: "camp", label: "キャンプ" },
   { id: "volcano", label: "火山" },
   { id: "forest", label: "樹海" },
   { id: "snowfields", label: "雪原" },

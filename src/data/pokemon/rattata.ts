@@ -5,7 +5,7 @@ export default {
     name: "コラッタ",
     en:"Rattata",
     no,
-    groups: ["ベースキャンプ", ],
+    groups: ["キャンプ", ],
     stars: {
       1: [
         {

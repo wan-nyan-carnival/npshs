@@ -5,7 +5,7 @@ export default {
     name: "ムーランド",
     en:"Stoutland",
     no,
-    groups: ["ベースキャンプ", ],
+    groups: ["キャンプ", ],
     stars: {
       1: [
         {

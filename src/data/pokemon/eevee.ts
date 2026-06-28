@@ -5,7 +5,7 @@ export default {
     name: "イーブイ",
     en: "Eevee",
     no,
-    groups: ["ベースキャンプ", "抜け道", ],
+    groups: ["公園", "キャンプ", "抜け道", ],
     stars: {
       1: [
         {

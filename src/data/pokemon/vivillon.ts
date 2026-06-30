@@ -163,7 +163,7 @@ export default {
         {
           image: `/npshs/img/${no}/poke4a.png`,
           info: {
-            area: "ベースキャンプ(入口)",
+            area: "キャンプ(入口)",
             pose: "変動(800)",
             position: "頭",
             friend: [""],

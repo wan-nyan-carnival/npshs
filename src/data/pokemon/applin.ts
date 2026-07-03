@@ -66,8 +66,8 @@ export default {
           videos: [
             {
               name: "Dmo_1123",
-              score: "4884",
-              url: "https://www.youtube.com/watch?v=jHuSiOz7vBM",
+              score: "4928",
+              url: "https://www.youtube.com/watch?v=NGT4khw9jk0",
             },
           ],
           steps: [

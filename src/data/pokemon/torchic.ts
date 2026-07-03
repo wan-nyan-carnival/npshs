@@ -62,6 +62,11 @@ export default {
           },
           videos: [
             {
+              name: "Dmo_1123",
+              score: "5372",
+              url: "https://www.youtube.com/watch?v=6lsWGuX1318",
+            },
+            {
               name: "Quentin",
               score: "5207",
               url: "https://www.youtube.com/watch?v=oye6rbk33fE",

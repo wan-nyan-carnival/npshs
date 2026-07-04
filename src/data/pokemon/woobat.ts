@@ -15,7 +15,7 @@ export default {
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "ゴルーグ、ワタシラガ、ブラッキー、シンボラー",
+            others: "ゴルーグ、オーベム、ワタシラガ、ブラッキー、シンボラー",
           },
           videos: [
             {
@@ -38,7 +38,7 @@ export default {
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "シンボラー",
+            others: "ゴルーグ、オーベム、ワタシラガ、シンボラー、シャンデラ",
           },
           videos: [
             {
@@ -61,7 +61,7 @@ export default {
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "ゴルーグ、ワタシラガ、シンボラー",
+            others: "ゴルーグ、オーベム、ワタシラガ、シンボラー、シャンデラ",
           },
           videos: [
             {
@@ -84,7 +84,7 @@ export default {
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "ゴルーグ、ワタシラガ、ブラッキー、シンボラー、シャンデラ",
+            others: "ゴルーグ、オーベム、ワタシラガ、ブラッキー、シンボラー、シャンデラ",
           },
           videos: [
             {

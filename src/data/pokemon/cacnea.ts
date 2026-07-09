@@ -69,6 +69,11 @@ export default {
               score: "5094",
               url: "https://www.youtube.com/watch?v=wllPKN9wkkk",
             },
+            {
+              name: "tripledubz",
+              score: "5084",
+              url: "https://www.twitch.tv/videos/2813187322",
+            },
           ],
           steps: [
             { type: "text", content: "誰か書いて。" },

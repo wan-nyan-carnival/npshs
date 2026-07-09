@@ -23,6 +23,11 @@ export default {
               score: "5388",
               url: "https://www.youtube.com/watch?v=VP4k2LAMApA",
             },
+            {
+              name: "かける",
+              score: "",
+              url: "https://www.youtube.com/watch?v=s81yU3yObr8",
+            },
           ],
           steps: [
             { type: "text", content: "誰か書いて。" },

@@ -62,6 +62,11 @@ export default {
           },
           videos: [
             {
+              name: "jbhmax",
+              score: "5852",
+              url: "https://www.twitch.tv/videos/2800634394",
+            },
+            {
               name: "Quentin",
               score: "5804",
               url: "https://www.youtube.com/watch?v=1YmtY6dst8s",

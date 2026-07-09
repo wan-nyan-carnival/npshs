@@ -13,7 +13,7 @@ export default {
           info: {
             area: "公園(昼) Lv3",
             pose: "固定(500)",
-            position: "胴と頭の間",
+            position: "胴",
             friend: ["スワンナ"],
             others: "ビッパ、コアルヒー、コイキング",
           },
@@ -23,13 +23,18 @@ export default {
               score: "5764",
               url: "https://www.youtube.com/watch?v=NSi_kzS67zQ",
             },
+            {
+              name: "かける",
+              score: "5733",
+              url: "https://www.youtube.com/watch?v=B_4kJHAueQE",
+            },
           ],
           steps: [
             { type: "text", content: "焼けたリンゴのあたりにリンゴを投げ、エモンガを木から降ろす。そのままリンゴで誘導し、丘の上までつれていく。" },
             { type: "text", content: "丘の頂点付近に到達したあたりでピジョットが出現。この頃から空を飛ぶスワンナの周回が始まり、正面から撮影するには低空を飛行する3周目まで手前に留まる必要がある。" },
-            { type: "text", content: "つれてきたエモンガがリンゴを焼いているうちに衝突してブレーキ→次のリンゴを投げる→食べ始める前にサーチをかけて衝突してブレーキ、というループを繰り返して時間を稼ぐ。6回程度ブレーキをかければ足りる。" },
+            { type: "text", content: "つれてきたエモンガがリンゴを焼いているうちに衝突してブレーキ→次のリンゴを投げる→食べ始める前にサーチをかけて衝突してブレーキ、というループを繰り返して時間を稼ぐ。8回程度ブレーキをかければ足りる。" },
             { type: "text", content: "さらなる加点を狙うなら、ブレーキ中にビッパの巣の頂点にリンゴをぶつけてビッパの顔を出させたり、湖のスワンナを手前の岩付近に集めたりする。湖のスワンナたちは空を飛んでいるコアルヒーが着水すると動かなくなるので、早めに動かす。コイキングが跳ねるかはランダム。" },
-            { type: "text", content: "低空で飛行してきたスワンナを撮影。スワンナの翼の状態はランダムで、M字状のもの以外は大きさが足りなくなりがち。" },
+            { type: "text", content: "低空で飛行してきたスワンナの翼がビッパの巣を隠さないくらいの高度になったら撮影。スワンナの翼の状態はランダムで、M字状のもの以外は大きさが足りなくなりがち。" },
           ]
         },
         {
@@ -48,9 +53,9 @@ export default {
               url: "https://www.youtube.com/watch?v=ffK9V5Cr3GU",
             },
             {
-              name: "Quentin",
+              name: "かける",
               score: "",
-              url: "https://www.youtube.com/watch?v=aJ6p_7Nmvls",
+              url: "https://www.youtube.com/watch?v=s81yU3yObr8",
             },
           ],
           steps: [
@@ -94,9 +99,9 @@ export default {
           },
           videos: [
             {
-              name: "Quentin",
+              name: "かける",
               score: "",
-              url: "https://www.youtube.com/watch?v=aJ6p_7Nmvls",
+              url: "https://www.youtube.com/watch?v=s81yU3yObr8",
             },
           ],
           steps: [

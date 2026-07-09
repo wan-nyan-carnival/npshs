@@ -65,6 +65,11 @@ export default {
           },
           videos: [
             {
+              name: "jbhmax",
+              score: "5458",
+              url: "https://www.twitch.tv/videos/2800777380",
+            },
+            {
               name: "黒歌鳥",
               score: "5446",
               url: "https://www.youtube.com/watch?v=U6lhTNx8qm8",

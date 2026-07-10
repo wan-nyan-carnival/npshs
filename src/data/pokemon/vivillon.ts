@@ -108,6 +108,26 @@ export default {
 
       3: [
         {
+          image: `/npshs/img/${no}/poke3c.png`,
+          info: {
+            area: "遺跡 Lv3",
+            pose: "変動(800)",
+            position: "頭",
+            friend: [""],
+            others: "ジラーチ、シンボラー",
+          },
+          videos: [
+            {
+              name: "",
+              score: "",
+              url: "",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
           image: `/npshs/img/${no}/poke3a.png`,
           info: {
             area: "荒野(夜) Lv2",

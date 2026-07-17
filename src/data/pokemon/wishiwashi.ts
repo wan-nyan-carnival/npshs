@@ -55,11 +55,31 @@ export default {
 
       3: [
         {
-          image: `/npshs/img/${no}/poke3.png`,
+          image: `/npshs/img/${no}/poke3a.png`,
           info: {
             area: "海中(イルミナ)",
             pose: "変動(2000)",
             position: "尾",
+            friend: [""],
+            others: "なし",
+          },
+          videos: [
+            {
+              name: "Quentin",
+              score: "6082",
+              url: "https://www.youtube.com/watch?v=109vcnMm_jc",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke3b.png`,
+          info: {
+            area: "海中(イルミナ)",
+            pose: "変動(2000)",
+            position: "胴",
             friend: [""],
             others: "なし",
           },

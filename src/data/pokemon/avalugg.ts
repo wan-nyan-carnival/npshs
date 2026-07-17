@@ -89,8 +89,8 @@ export default {
           videos: [
             {
               name: "黒歌鳥",
-              score: "5679",
-              url: "https://www.youtube.com/watch?v=qU3RXE5L9Ts",
+              score: "5690",
+              url: "https://www.youtube.com/watch?v=zTKzimlt1gY",
             },
           ],
           steps: [

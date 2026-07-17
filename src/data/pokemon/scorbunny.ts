@@ -65,6 +65,11 @@ export default {
           },
           videos: [
             {
+              name: "tripledubz",
+              score: "5293",
+              url: "https://www.twitch.tv/videos/2817304049",
+            },
+            {
               name: "Herpingyoshi",
               score: "5113",
               url: "https://www.youtube.com/watch?v=ElC4nucCKUI",

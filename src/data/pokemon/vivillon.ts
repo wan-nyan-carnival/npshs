@@ -118,9 +118,9 @@ export default {
           },
           videos: [
             {
-              name: "",
-              score: "",
-              url: "",
+              name: "Quentin",
+              score: "4888",
+              url: "https://www.youtube.com/watch?v=p4DssQf7SUI",
             },
           ],
           steps: [

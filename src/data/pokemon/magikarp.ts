@@ -19,6 +19,11 @@ export default {
           },
           videos: [
             {
+              name: "黒歌鳥",
+              score: "5326",
+              url: "https://www.youtube.com/watch?v=u1MVVQu7JAY",
+            },
+            {
               name: "Quentin",
               score: "5245",
               url: "https://www.youtube.com/watch?v=anXL5JOgF-k",

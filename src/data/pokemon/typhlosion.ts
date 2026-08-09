@@ -88,6 +88,11 @@ export default {
           },
           videos: [
             {
+              name: "tripledubz",
+              score: "5729",
+              url: "https://www.twitch.tv/videos/2837770901",
+            },
+            {
               name: "黒歌鳥",
               score: "5649",
               url: "https://www.youtube.com/watch?v=TpEar0lUxpE",

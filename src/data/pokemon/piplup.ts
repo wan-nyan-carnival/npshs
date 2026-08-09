@@ -78,7 +78,27 @@ export default {
 
       4: [
         {
-          image: `/npshs/img/${no}/poke4.png`,
+          image: `/npshs/img/${no}/poke4a.png`,
+          info: {
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "頭と頭の間",
+            friend: ["グレイシア"],
+            others: "",
+          },
+          videos: [
+            {
+              name: "Quentin",
+              score: "5475",
+              url: "https://www.youtube.com/watch?v=MrSao_QBEuI",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke4b.png`,
           info: {
             area: "雪原(夜) Lv2",
             pose: "変動(1000)",

@@ -19,6 +19,11 @@ export default {
           },
           videos: [
             {
+              name: "黒歌鳥",
+              score: "5420",
+              url: "https://www.youtube.com/watch?v=uT2fNFArMHY",
+            },
+            {
               name: "Pokemario6456",
               score: "5224",
               url: "https://www.youtube.com/watch?v=lHNnmi3_3k8",
@@ -41,6 +46,11 @@ export default {
             others: "グソクムシャ、ランターン、スターミー",
           },
           videos: [
+            {
+              name: "黒歌鳥",
+              score: "5324",
+              url: "https://www.youtube.com/watch?v=Q2Jsr-dOb70",
+            },
             {
               name: "Dmo",
               score: "5185",
@@ -65,6 +75,11 @@ export default {
           },
           videos: [
             {
+              name: "黒歌鳥",
+              score: "5449",
+              url: "https://www.youtube.com/watch?v=PlXP8TxrJ20",
+            },
+            {
               name: "Dmo",
               score: "5369",
               url: "https://www.youtube.com/watch?v=4Bh-vifGg68",
@@ -77,6 +92,31 @@ export default {
       ],
 
       4: [
+        {
+          image: `/npshs/img/${no}/poke4b.png`,
+          info: {
+            area: "海中 Lv3",
+            pose: "変動(1000)",
+            position: "首",
+            friend: [""],
+            others: "ランターン、スターミー、ハリーセン",
+          },
+          videos: [
+            {
+              name: "黒歌鳥",
+              score: "5486",
+              url: "https://www.youtube.com/watch?v=aiG3AbYZvm0",
+            },
+            {
+              name: "tripledubz",
+              score: "5389",
+              url: "https://www.twitch.tv/videos/2079229762",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
         {
           image: `/npshs/img/${no}/poke4a.png`,
           info: {
@@ -97,26 +137,6 @@ export default {
             { type: "text", content: "誰か書いて。" },
           ]
         },
-        {
-          image: `/npshs/img/${no}/poke4b.png`,
-          info: {
-            area: "海中 Lv3",
-            pose: "変動(1000)",
-            position: "首",
-            friend: [""],
-            others: "ランターン、スターミー、ハリーセン",
-          },
-          videos: [
-            {
-              name: "tripledubz",
-              score: "5389",
-              url: "https://www.twitch.tv/videos/2079229762",
-            },
-          ],
-          steps: [
-            { type: "text", content: "誰か書いて。" },
-          ]
-        }
       ],
     }
   };

@@ -59,13 +59,18 @@ export default {
           info: {
             area: "雪原(夜) Lv2",
             pose: "変動(1000)",
-            position: "胴",
+            position: "胴(※)",
             friend: [""],
-            others: "ポッチャマ",
+            others: "モスノウ",
           },
           videos: [
             {
               name: "Quentin",
+              score: "5288",
+              url: "https://www.youtube.com/watch?v=erPWnMyv07A",
+            },
+            {
+              name: "",
               score: "5233",
               url: "https://www.youtube.com/watch?v=5--E5Nus_1k",
             },

@@ -78,7 +78,32 @@ export default {
 
       4: [
         {
-          image: `/npshs/img/${no}/poke4.png`,
+          image: `/npshs/img/${no}/poke4a.png`,
+          info: {
+            area: "砂漠(夜) Lv2",
+            pose: "固定(950)",
+            position: "胴と胴の間(※)",
+            friend: ["メテオラ"],
+            others: "ルガルガン",
+          },
+          videos: [
+            {
+              name: "黒歌鳥",
+              score: "5854",
+              url: "https://www.youtube.com/watch?v=jPsNjFhU15E",
+            },
+            {
+              name: "tripledubz",
+              score: "5838",
+              url: "https://www.twitch.tv/videos/2843183363",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke4b.png`,
           info: {
             area: "砂漠(夜) Lv2",
             pose: "固定(950)",

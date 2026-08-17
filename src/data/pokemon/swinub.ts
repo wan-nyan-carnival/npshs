@@ -55,7 +55,32 @@ export default {
 
       3: [
         {
-          image: `/npshs/img/${no}/poke3.png`,
+          image: `/npshs/img/${no}/poke3a.png`,
+          info: {
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: [""],
+            others: "",
+          },
+          videos: [
+            {
+              name: "tripledubz",
+              score: "4928",
+              url: "https://www.twitch.tv/videos/2843175631",
+            },
+            {
+              name: "Quentin",
+              score: "4882",
+              url: "https://www.youtube.com/watch?v=fRpeXl815zE",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke3b.png`,
           info: {
             area: "雪原(夜) Lv2",
             pose: "変動(1000)",
@@ -66,11 +91,6 @@ export default {
           videos: [
             {
               name: "Quentin",
-              score: "4882",
-              url: "https://www.youtube.com/watch?v=fRpeXl815zE",
-            },
-            {
-              name: "",
               score: "4780",
               url: "https://www.youtube.com/watch?v=MkUH0q8Oty8",
             },

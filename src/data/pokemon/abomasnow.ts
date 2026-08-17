@@ -55,7 +55,27 @@ export default {
 
       3: [
         {
-          image: `/npshs/img/${no}/poke3.png`,
+          image: `/npshs/img/${no}/poke3a.png`,
+          info: {
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "胴",
+            friend: ["モスノウ"],
+            others: "ロコン",
+          },
+          videos: [
+            {
+              name: "Quentin",
+              score: "5711",
+              url: "https://www.youtube.com/watch?v=PjViRWWZjwo",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke3b.png`,
           info: {
             area: "雪原(夜) Lv2",
             pose: "変動(1000)",

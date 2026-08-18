@@ -98,7 +98,27 @@ export default {
 
       4: [
         {
-          image: `/npshs/img/${no}/poke4.png`,
+          image: `/npshs/img/${no}/poke4a.png`,
+          info: {
+            area: "雪原(夜) Lv2",
+            pose: "変動(1000)",
+            position: "頭と頭の間",
+            friend: ["モスノウ"],
+            others: "ウォーグル",
+          },
+          videos: [
+            {
+              name: "tripledubz",
+              score: "5872",
+              url: "https://www.twitch.tv/videos/2849491512",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke4b.png`,
           info: {
             area: "雪原(夜) Lv2",
             pose: "変動(1000)",

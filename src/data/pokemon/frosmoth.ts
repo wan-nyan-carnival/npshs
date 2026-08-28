@@ -108,6 +108,11 @@ export default {
           },
           videos: [
             {
+              name: "Quentin",
+              score: "6157",
+              url: "https://www.youtube.com/watch?v=caYMKwZPcV0",
+            },
+            {
               name: "tripledubz",
               score: "5872",
               url: "https://www.twitch.tv/videos/2849491512",

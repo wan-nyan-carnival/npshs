@@ -103,7 +103,27 @@ export default {
 
       4: [
         {
-          image: `/npshs/img/${no}/poke4.png`,
+          image: `/npshs/img/${no}/poke4a.png`,
+          info: {
+            area: "雪原(夜) Lv2",
+            pose: "固定(500)",
+            position: "胴",
+            friend: ["ウォーグル"],
+            others: "",
+          },
+          videos: [
+            {
+              name: "Quentin",
+              score: "4766",
+              url: "https://www.youtube.com/watch?v=r1oPQFrBq4U",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke4b.png`,
           info: {
             area: "雪原(昼) Lv3",
             pose: "固定(950)",
@@ -121,7 +141,7 @@ export default {
           steps: [
             { type: "text", content: "誰か書いて。" },
           ]
-        }
+        },
       ],
     }
   };

@@ -88,6 +88,11 @@ export default {
           },
           videos: [
             {
+              name: "Dmo_1123",
+              score: "6099",
+              url: "https://www.youtube.com/watch?v=M7rbNOGU_Q0",
+            },
+            {
               name: "Tripledubz",
               score: "",
               url: "https://www.youtube.com/watch?v=1BH3kaIIqu4",

@@ -37,8 +37,8 @@ export default {
             area: "ジャングル(昼) Lv3",
             pose: "変動(1000)",
             position: "頭",
-            friend: [""],
-            others: "コイキング",
+            friend: ["コイキング"],
+            others: "",
           },
           videos: [
             {

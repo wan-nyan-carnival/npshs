@@ -65,6 +65,11 @@ export default {
           },
           videos: [
             {
+              name: "Dmo_1123",
+              score: "6168",
+              url: "https://www.youtube.com/watch?v=WBvkQdfW5CY",
+            },
+            {
               name: "黒歌鳥",
               score: "6162",
               url: "https://www.youtube.com/watch?v=zJUJcUGd-sc",
@@ -87,6 +92,11 @@ export default {
             others: "",
           },
           videos: [
+            {
+              name: "Dmo_1123",
+              score: "4978",
+              url: "https://www.youtube.com/watch?v=rLaItGfGAKQ",
+            },
             {
               name: "黒歌鳥",
               score: "4968",

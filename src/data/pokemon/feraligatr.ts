@@ -20,8 +20,8 @@ export default {
           videos: [
             {
               name: "黒歌鳥",
-              score: "5036",
-              url: "https://www.youtube.com/watch?v=B1S2x7yLJWw",
+              score: "5085",
+              url: "https://www.youtube.com/watch?v=R4QmzQvr_5Y",
             },
           ],
           steps: [
@@ -89,8 +89,8 @@ export default {
           videos: [
             {
               name: "黒歌鳥",
-              score: "5160",
-              url: "https://www.youtube.com/watch?v=2PWibHUqYLQ",
+              score: "5221",
+              url: "https://www.youtube.com/watch?v=67XCl6F-oLc",
             },
           ],
           steps: [

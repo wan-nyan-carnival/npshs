@@ -55,7 +55,27 @@ export default {
 
       3: [
         {
-          image: `/npshs/img/${no}/poke3.png`,
+          image: `/npshs/img/${no}/poke3a.png`,
+          info: {
+            area: "雪原(昼) Lv3",
+            pose: "変動(800)",
+            position: "胴",
+            friend: [""],
+            others: "オオタチ",
+          },
+          videos: [
+            {
+              name: "tripledubz",
+              score: "4882",
+              url: "https://www.twitch.tv/videos/2875563013",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke3b.png`,
           info: {
             area: "雪原(昼) Lv3",
             pose: "変動(800)",

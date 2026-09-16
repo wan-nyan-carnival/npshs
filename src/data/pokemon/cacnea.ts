@@ -55,7 +55,27 @@ export default {
 
       3: [
         {
-          image: `/npshs/img/${no}/poke3.png`,
+          image: `/npshs/img/${no}/poke3a.png`,
+          info: {
+            area: "砂漠(夜) Lv2",
+            pose: "変動(800)",
+            position: "胴",
+            friend: ["メテノ"],
+            others: "",
+          },
+          videos: [
+            {
+              name: "tripledubz",
+              score: "5196",
+              url: "https://www.twitch.tv/videos/2864716387",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke3b.png`,
           info: {
             area: "砂漠(昼) Lv3",
             pose: "変動(800)",

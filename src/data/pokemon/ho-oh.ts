@@ -23,6 +23,11 @@ export default {
               score: "6000",
               url: "https://www.youtube.com/watch?v=_fYgahitKIE",
             },
+            {
+              name: "Whom Snaps",
+              score: "6000",
+              url: "https://www.youtube.com/watch?v=0g-YNuN3UvM",
+            },
           ],
           steps: [
             { type: "text", content: "誰か書いて。" },

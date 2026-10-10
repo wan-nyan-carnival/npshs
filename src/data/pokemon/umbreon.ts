@@ -19,6 +19,11 @@ export default {
           },
           videos: [
             {
+              name: "だれか",
+              score: "5375",
+              url: "https://x.com/someone_kuro/status/2101699911289037108",
+            },
+            {
               name: "Whom Snaps",
               score: "5280",
               url: "https://www.youtube.com/watch?v=JxmOQHYOR_s",

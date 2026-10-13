@@ -55,6 +55,26 @@ export default {
 
       3: [
         {
+          image: `/npshs/img/${no}/poke3b.png`,
+          info: {
+            area: "雪原(夜) Lv2",
+            pose: "固定(950)",
+            position: "胴",
+            friend: [""],
+            others: "モスノウ",
+          },
+          videos: [
+            {
+              name: "Quentin",
+              score: "5252",
+              url: "https://www.youtube.com/watch?v=h8yua0_ZdWQ",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
           image: `/npshs/img/${no}/poke3a.png`,
           info: {
             area: "雪原(夜) Lv2",
@@ -74,26 +94,6 @@ export default {
             { type: "text", content: "誰か書いて。" },
           ]
         },
-        {
-          image: `/npshs/img/${no}/poke3b.png`,
-          info: {
-            area: "雪原(夜) Lv2",
-            pose: "固定(950)",
-            position: "胴",
-            friend: [""],
-            others: "ロコン",
-          },
-          videos: [
-            {
-              name: "Quentin",
-              score: "5252",
-              url: "https://www.youtube.com/watch?v=h8yua0_ZdWQ",
-            },
-          ],
-          steps: [
-            { type: "text", content: "誰か書いて。" },
-          ]
-        }
       ],
 
       4: [

@@ -42,13 +42,23 @@ export default {
           },
           videos: [
             {
+              name: "かける",
+              score: "4962",
+              url: "https://www.youtube.com/watch?v=nZDIwh0ZEZY",
+            },
+            {
               name: "黒歌鳥",
               score: "4960",
               url: "https://www.youtube.com/watch?v=R63qeK_fpJo",
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "分岐をサーチして進行先を洞窟側に変更。" },
+            { type: "text", content: "下を向いて先頭のマーイーカにオーブを当てる。" },
+            { type: "text", content: "早く進みすぎるとドククラゲがスターミーを攻撃してしまうので、マーイーカがドククラゲに催眠術を仕掛けるまで、左を向くなどして進行を遅らせる。" },
+            { type: "text", content: "スターミーをリンゴでドククラゲのいる手前側に引き寄せる。" },
+            { type: "text", content: "ドククラゲにリンゴをぶつけると、他のポケモン点がわずかにアップ。" },
+            { type: "text", content: "スターミーにリンゴをぶつけて撮影。" },
           ]
         }
       ],

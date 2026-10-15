@@ -89,7 +89,7 @@ export default {
           videos: [
             {
               name: "かける",
-              score: "5603",
+              score: "5602",
               url: "https://www.youtube.com/watch?v=no3sCcaKp34",
             },
             {

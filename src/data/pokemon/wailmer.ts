@@ -5,7 +5,7 @@ export default {
     name: "ホエルコ",
     en: "Wailmer",
     no,
-    groups: ["海中", ],
+    groups: ["海上", "海中", ],
     stars: {
       1: [
         {

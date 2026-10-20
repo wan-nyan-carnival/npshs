@@ -93,6 +93,11 @@ export default {
           },
           videos: [
             {
+              name: "Dmo1123",
+              score: "5586",
+              url: "https://x.com/top50boundbowl/status/2112378208150532142",
+            },
+            {
               name: "Quentin",
               score: "5510",
               url: "https://www.youtube.com/watch?v=nsmNkxxCYn8",

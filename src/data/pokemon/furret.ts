@@ -13,11 +13,16 @@ export default {
           info: {
             area: "雪原(夜) Lv2",
             pose: "固定(500)",
-            position: "頭と胴の間",
+            position: "頭と頭・胴の間",
             friend: ["グラエナ"],
             others: "サンドパン",
           },
           videos: [
+            {
+              name: "かける",
+              score: "5339",
+              url: "https://www.youtube.com/watch?v=c9PPkAlQqE0",
+            },
             {
               name: "黒歌鳥",
               score: "5337",

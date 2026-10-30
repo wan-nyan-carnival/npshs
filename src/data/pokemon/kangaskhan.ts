@@ -15,7 +15,7 @@ export default {
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "スコルピ",
+            others: "スコルピ、サボネア、スナヘビ",
           },
           videos: [
             {

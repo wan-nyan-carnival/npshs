@@ -19,6 +19,11 @@ export default {
           },
           videos: [
             {
+              name: "だれか",
+              score: "5348",
+              url: "https://x.com/someone_kuro/status/2117182326098800887",
+            },
+            {
               name: "かける",
               score: "5339",
               url: "https://www.youtube.com/watch?v=c9PPkAlQqE0",

@@ -32,19 +32,39 @@ export default {
 
       2: [
         {
-          image: `/npshs/img/${no}/poke2.png`,
+          image: `/npshs/img/${no}/poke2a.png`,
           info: {
             area: "樹海(冬)",
             pose: "変動(1000)",
             position: "首",
             friend: [""],
-            others: "ケンホロウ、サーナイト",
+            others: "ケンホロウ、サーナイト、シキジカ",
           },
           videos: [
             {
               name: "黒歌鳥",
               score: "5499",
               url: "https://www.youtube.com/watch?v=g7EcvDfGaok",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
+        {
+          image: `/npshs/img/${no}/poke2b.png`,
+          info: {
+            area: "樹海(春)",
+            pose: "変動(1000)",
+            position: "首",
+            friend: [""],
+            others: "フシギダネ、シキジカ、ケンホロウ、メブキジカ",
+          },
+          videos: [
+            {
+              name: "kumamop",
+              score: "5522",
+              url: "https://www.youtube.com/watch?v=d6MsY1RmKas",
             },
           ],
           steps: [

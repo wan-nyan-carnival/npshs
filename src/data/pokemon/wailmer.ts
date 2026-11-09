@@ -88,13 +88,20 @@ export default {
           },
           videos: [
             {
+              name: "かける",
+              score: "5046",
+              url: "https://www.youtube.com/watch?v=1y1VvCtKfOU",
+            },
+            {
               name: "Dmo1123",
               score: "",
               url: "https://x.com/top50boundbowl/status/1475703364289658883",
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "カイリキーとサメハダーのレースが終わるまでホエルコが出現しないので、ホエルオーの裏に回ったあたりでターボを解除し、後ろ向きでズームをして時間を潰す。" },
+            { type: "text", content: "分岐を選択することでホエルコの向きが改善し、分岐成立と同時に下ボタンを押す分岐移動バグを用いると更に向きが改善する。" },
+            { type: "text", content: "ホエルコにオーブを当てると、潮吹きを行うのでズームアウトしながら撮影。" },
           ]
         }
       ],

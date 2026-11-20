@@ -23,6 +23,11 @@ export default {
               score: "5544",
               url: "https://www.youtube.com/watch?v=MSdMdoBIqx8",
             },
+            {
+              name: "",
+              score: "",
+              url: "https://www.youtube.com/watch?v=kGyNHv6xZS8",
+            },
           ],
           steps: [
             { type: "text", content: "誰か書いて。" },

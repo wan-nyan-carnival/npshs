@@ -15,7 +15,7 @@ export default {
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "ハブネーク",
+            others: "ハブネーク、フワライド、ナッシー",
           },
           videos: [
             {
@@ -38,7 +38,7 @@ export default {
             pose: "変動(800)",
             position: "胴",
             friend: [""],
-            others: "ハブネーク",
+            others: "ハブネーク、フワライド、ナッシー",
           },
           videos: [
             {

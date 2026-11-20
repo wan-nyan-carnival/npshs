@@ -32,7 +32,7 @@ export default {
 
       2: [
         {
-          image: `/npshs/img/${no}/poke2.png`,
+          image: `/npshs/img/${no}/poke2a.png`,
           info: {
             area: "砂漠(夜) Lv2",
             pose: "変動(1000)",
@@ -50,7 +50,27 @@ export default {
           steps: [
             { type: "text", content: "誰か書いて。" },
           ]
-        }
+        },
+        {
+          image: `/npshs/img/${no}/poke2b.png`,
+          info: {
+            area: "砂漠(夜) Lv2",
+            pose: "変動(800)",
+            position: "胴",
+            friend: [""],
+            others: "スコルピ、サボネア、ナックラー",
+          },
+          videos: [
+            {
+              name: "Whom Snaps",
+              score: "5277",
+              url: "https://www.youtube.com/watch?v=5dF3JttJGW4",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
       ],
 
       3: [

@@ -32,7 +32,7 @@ export default {
 
       2: [
         {
-          image: `/npshs/img/${no}/poke2.png`,
+          image: `/npshs/img/${no}/poke2a.png`,
           info: {
             area: "荒野(夜) Lv2",
             pose: "変動(800)",
@@ -50,7 +50,27 @@ export default {
           steps: [
             { type: "text", content: "誰か書いて。" },
           ]
-        }
+        },
+        {
+          image: `/npshs/img/${no}/poke2b.png`,
+          info: {
+            area: "荒野(夜) Lv2",
+            pose: "変動(800)",
+            position: "胴",
+            friend: [""],
+            others: "ディグダ",
+          },
+          videos: [
+            {
+              name: "Quentin",
+              score: "4883",
+              url: "https://www.youtube.com/watch?v=rTi7pnde1CA",
+            },
+          ],
+          steps: [
+            { type: "text", content: "誰か書いて。" },
+          ]
+        },
       ],
 
       3: [

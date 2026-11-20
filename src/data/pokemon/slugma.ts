@@ -15,7 +15,7 @@ export default {
             pose: "変動(1000)",
             position: "首",
             friend: [""],
-            others: "ブースター、コータス",
+            others: "ブースター、コータス、ヒトカゲ",
           },
           videos: [
             {
@@ -38,7 +38,7 @@ export default {
             pose: "変動(1000)",
             position: "首",
             friend: [""],
-            others: "ブースター、コータス",
+            others: "ブースター、コータス、ヒトカゲ",
           },
           videos: [
             {
@@ -61,7 +61,7 @@ export default {
             pose: "変動(1000)",
             position: "首",
             friend: [""],
-            others: "ブースター、コータス",
+            others: "ブースター、コータス、ヒトカゲ",
           },
           videos: [
             {
@@ -84,7 +84,7 @@ export default {
             pose: "固定(950)",
             position: "首",
             friend: [""],
-            others: "ブースター、コータス",
+            others: "ブースター、コータス、ヒトカゲ",
           },
           videos: [
             {

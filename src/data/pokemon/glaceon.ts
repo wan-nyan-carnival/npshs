@@ -88,6 +88,11 @@ export default {
           },
           videos: [
             {
+              name: "だれか",
+              score: "6049",
+              url: "https://x.com/someone_kuro/status/2123471111883194542",
+            },
+            {
               name: "かける",
               score: "5986",
               url: "https://www.youtube.com/watch?v=VTDKUwSWSQ8",
@@ -96,11 +101,6 @@ export default {
               name: "Quentin",
               score: "5706",
               url: "https://www.youtube.com/watch?v=Vd9RIZDuBUk",
-            },
-            {
-              name: "だれか",
-              score: "",
-              url: "https://x.com/someone_kuro/status/2118044908359668192",
             },
           ],
           steps: [

@@ -108,14 +108,14 @@ export default {
           },
           videos: [
             {
+              name: "だれか",
+              score: "6426",
+              url: "https://x.com/someone_kuro/status/2124771086198047172",
+            },
+            {
               name: "かける",
               score: "6298",
               url: "https://www.youtube.com/watch?v=VTDKUwSWSQ8",
-            },
-            {
-              name: "だれか",
-              score: "6261",
-              url: "https://x.com/someone_kuro/status/2118044908359668192",
             },
             {
               name: "Quentin",

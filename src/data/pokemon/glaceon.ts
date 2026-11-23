@@ -89,8 +89,8 @@ export default {
           videos: [
             {
               name: "だれか",
-              score: "6049",
-              url: "https://x.com/someone_kuro/status/2123471111883194542",
+              score: "6069",
+              url: "https://x.com/someone_kuro/status/2124589746827759636",
             },
             {
               name: "かける",

@@ -9,7 +9,7 @@ export default {
     stars: {
       1: [
         {
-          image: `/npshs/img/${no}/poke1.png`,
+          image: `/npshs/img/${no}/poke1a.png`,
           info: {
             area: "公園(昼) Lv3",
             pose: "変動(1000)",
@@ -25,9 +25,33 @@ export default {
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "ピチューとサルノリを回り込むようにリンゴで誘導し、バッフロンの背後に移動させると他のポケモン点が増加。" },
+            { type: "text", content: "開始地点付近にいる歩いているバッフロンが、蹄で地面をかくようなランダムモーションを行っているところを撮影する。" },
           ]
-        }
+        },
+        {
+          image: `/npshs/img/${no}/poke1b.png`,
+          info: {
+            area: "公園(昼) Lv3",
+            pose: "固定(500)",
+            position: "胴",
+            friend: [""],
+            others: "ピチュー、サルノリ、ビッパ、バッフロン、ビビヨン、ヒバニー",
+          },
+          videos: [
+            {
+              name: "黒歌鳥",
+              score: "5075",
+              url: "https://www.youtube.com/watch?v=xAZlBm9Hm0s",
+            },
+          ],
+          steps: [
+            { type: "text", content: "ピチューとサルノリを奥へ誘導し、ネオワン号を右へ寄せる。" },
+            { type: "text", content: "左に出てくるビッパも合流させて誘導していく。" },
+            { type: "text", content: "眠っているビッパの横にリンゴを置きつつ、ビッパにリンゴをぶつけて起こす。" },
+            { type: "text", content: "眠っていたビッパに再度リンゴを当ててポーズを変更させつつ（他のポケモン点の増加）、眠っているバッフロンを撮影。" },
+          ]
+        },
       ],
 
       2: [
@@ -48,7 +72,10 @@ export default {
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "ピチューとサルノリを奥へ誘導し、ネオワン号を右へ寄せる。" },
+            { type: "text", content: "左に出てくるビッパも合流させて誘導していく。" },
+            { type: "text", content: "眠っているビッパの横にリンゴを置きつつ、ビッパにリンゴをぶつけて起こす。" },
+            { type: "text", content: "眠っているバッフロンとシナジー対象のビッパ両方にリンゴがぶつかるように投げ、起きたバッフロンを撮影する。" },
           ]
         }
       ],
@@ -71,7 +98,8 @@ export default {
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "最後の花畑エリアの奥の方にいるアフロに花をつけた個体をフラワー近くへ誘導し、ゴール側に向きを変更させる。こうすることでフラワーが2つ入り、風景点を大きく稼げる。" },
+            { type: "text", content: "蹄で地面をかくランダムモーションが発生したところを撮影。" },
           ]
         }
       ],
@@ -94,7 +122,9 @@ export default {
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "ピチューとサルノリを奥へ誘導し、ネオワン号をわずかに左へ寄せて距離を調整する。" },
+            { type: "text", content: "左に出てくるビッパも合流させて誘導していく。" },
+            { type: "text", content: "バッフロンに向けてメロディを使用すると、互いに頭をぶつけ合うイベントが発生、そこを撮影する。" },
           ]
         }
       ],

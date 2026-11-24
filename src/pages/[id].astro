@@ -124,14 +124,19 @@ const stars = [1, 2, 3, 4];
                     {entry.steps?.map((step) => (
                       <li>
                         {step.type === "text" && (
-                          <p>{step.content}</p>
+                          <p set:html={autoLink(step.content)} />
                         )}
 
                         {step.type === "image" && (
-                          <img
-                            src={step.src}
-                            alt={step.alt ?? ""}
-                          />
+                          <>
+                            <img
+                              src={step.src}
+                              alt={step.alt ?? ""}
+                            />
+                            {step.note && (
+                              <p>{step.note}</p>
+                            )}
+                          </>
                         )}
                       </li>
                     ))}

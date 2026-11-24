@@ -89,7 +89,7 @@ export default {
             pose: "固定(950)",
             position: "胴(※)",
             friend: ["ピジョット"],
-            others: "ビッパ",
+            others: "ビッパ、スワンナ",
           },
           videos: [
             {

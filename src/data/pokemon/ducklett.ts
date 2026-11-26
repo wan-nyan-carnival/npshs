@@ -15,7 +15,7 @@ export default {
             pose: "変動(1000)",
             position: "胴",
             friend: [""],
-            others: "コアルヒー",
+            others: "コアルヒー、スワンナ",
           },
           videos: [
             {
@@ -25,7 +25,9 @@ export default {
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "最初にビッパを使って永続ブレーキをかける必要がある。詳細はURLを参照。\nhttps://www.youtube.com/watch?v=s81yU3yObr8" },
+            { type: "text", content: "ビッパの巣の近くにコアルヒーを集め、コアルヒーが潜るランダムモーションを取ったところを撮影する。衝突判定で上に浮き上がっているところを撮れば向き点や風景点が増加。" },
+            { type: "text", content: "サーチをかけると他のポケモンをこちらに向かせることができる。主役の潜る動作は中断されない。" },
           ]
         }
       ],
@@ -48,7 +50,7 @@ export default {
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "ビッパの巣の橋を渡っているところで、スワンナが泳ぐのをやめると後ろにいるコアルヒーが左右を見回した後に首を傾げる。そこを撮影。右にいる方を主役にする。" },
           ]
         }
       ],

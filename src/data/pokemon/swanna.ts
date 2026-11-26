@@ -52,14 +52,11 @@ export default {
               score: "5372",
               url: "https://www.youtube.com/watch?v=ffK9V5Cr3GU",
             },
-            {
-              name: "かける",
-              score: "",
-              url: "https://www.youtube.com/watch?v=s81yU3yObr8",
-            },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "最初にビッパを使って永続ブレーキをかける必要がある。詳細はURLを参照。\nhttps://www.youtube.com/watch?v=s81yU3yObr8" },
+            { type: "text", content: "ビッパの巣の近くにスワンナやコアルヒーを集め、スワンナが頭を水面に突っ込むランダムモーションを取ったところを撮影する。衝突判定で上に浮き上がっているところを撮れば向き点や風景点が増加。" },
+            { type: "text", content: "木の実にリンゴを投げることで、モジャンボが木の実を食べ、その後に待機状態となる。湖内までリンゴを使って誘導すれば他のポケモン点が増加。誘導ルートの詳細はURLを参照。\nhttps://www.youtube.com/watch?v=jOCvcNTpXyk" },
           ]
         }
       ],
@@ -99,13 +96,15 @@ export default {
           },
           videos: [
             {
-              name: "かける",
+              name: "",
               score: "",
-              url: "https://www.youtube.com/watch?v=s81yU3yObr8",
+              url: "",
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "最初にビッパを使って永続ブレーキをかける必要がある。詳細はURLを参照。\nhttps://www.youtube.com/watch?v=s81yU3yObr8" },
+            { type: "text", content: "ビッパの巣の近くにスワンナやコアルヒーを集め、スワンナが翼を羽ばたかせるランダムモーションを取ったところを撮影する。衝突判定で上に浮き上がっているところを撮れば向き点や風景点が増加。" },
+            { type: "text", content: "木の実にリンゴを投げることで、モジャンボが木の実を食べ、その後に待機状態となる。湖内までリンゴを使って誘導すれば他のポケモン点が増加。誘導ルートの詳細はURLを参照。\nhttps://www.youtube.com/watch?v=jOCvcNTpXyk" },
           ]
         },
         {
@@ -125,7 +124,9 @@ export default {
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "ヒバニーにオーブを当てる。（ピチューフラグ）" },
+            { type: "text", content: "スワンナを進ませるためにゆっくり進行。スワンナが終点に到達する前にリンゴをぶつけて撮影。" },
+            { type: "text", content: "ピチューとサルノリに向かってサーチを使うことで起こせる。" },
           ]
         }
       ],
@@ -148,7 +149,10 @@ export default {
             },
           ],
           steps: [
-            { type: "text", content: "誰か書いて。" },
+            { type: "text", content: "イルミナ状態のスワンナが着水したらメロディを使用、するとスワンナたちが飛び上がる。" },
+            { type: "text", content: "湖の中央にある島の後ろにイルミナ状態のスワンナが隠れたら、すぐ岩の上のコイキングにオーブを当てる。これによりコイキングが右に跳ねてくる。" },
+            { type: "text", content: "最後から2番目のスワンナの頭が画面に入った瞬間に、水面にリンゴを投げる。これによりコイキングがジャンプしながら登場する。" },
+            { type: "text", content: "大きさを優先するため、ポーズは翼を十分に広げている758～768のタイミングを狙う。" },
           ]
         }
       ],

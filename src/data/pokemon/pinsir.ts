@@ -85,7 +85,7 @@ export default {
           info: {
             area: "公園(夜) Lv2",
             pose: "変動(1000)",
-            position: "頭",
+            position: "胴",
             friend: [""],
             others: "ピチュー、サルノリ、コイキング、スワンナ",
           },
